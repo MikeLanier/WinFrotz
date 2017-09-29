@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ab12da1a-8c9f-427c-ad87-617bea0ee631}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Source Files\C-Files">
+      <UniqueIdentifier>{0bec21dd-cfd3-43f4-ac69-f50fcc8f048f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\C-Files\Frotz">
+      <UniqueIdentifier>{f2371914-468d-4681-927e-9574a155ad0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9bbfe6d3-f2aa-40ef-991a-a2004fb70038}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e9823051-013f-4e4e-b02c-01c26c5694d0}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\AddAlias.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\AliasList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\CAutoLoad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\CDebugOpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\CMyColorDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\CMyFontDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\CScrollBack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\CSoundOpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\DisplayOpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GraphOpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Ini.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\WinFrotz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\WinFrotzDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\WinFrotzView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Win_init.c">
+      <Filter>Source Files\C-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C\win_input.c">
+      <Filter>Source Files\C-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Win_pic.c">
+      <Filter>Source Files\C-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Win_scrn.c">
+      <Filter>Source Files\C-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Win_smpl.c">
+      <Filter>Source Files\C-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Win_text.c">
+      <Filter>Source Files\C-Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Alias.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Buffer.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Fastmem.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Files.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Getopt.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Hotkey.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Input.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Main.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Math.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Object.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Process.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Random.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Redirect.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Screen.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Sound.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Stream.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Table.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Text.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+    <ClCompile Include="Frotz\Variable.c">
+      <Filter>Source Files\C-Files\Frotz</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AddAlias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AliasList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CAutoLoad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CDebugOpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CMyColorDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyFontDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\crosscomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CScrollBack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CSoundOpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\debugdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DisplayOpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frotz\Frotz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Globs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphOpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\States.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Windefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinFrotz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinFrotzDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinFrotzView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INCLUDE\logfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INCLUDE\logfile_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Ico00004.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Ico00005.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Ico00006.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Ico00007.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\Ico00008.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\ico00009.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\WinFrotz.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\WinFrotz.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\WinFrotzDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WinFrotz.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

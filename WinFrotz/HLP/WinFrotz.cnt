@@ -1,0 +1,15 @@
+:Base WinFrotz.hlp
+1 Menus
+2 File menu=menu_file
+2 Edit menu=menu_edit
+2 View menu=menu_view
+2 Colors menu=menu_colors
+2 Options menu=menu_options
+2 Help menu=menu_help
+1 Using WinFrotz
+2 WinFrotz Background=Getting Started
+2 Obtaining Story Files=get_games
+2 Starting a Story=start_story
+2 Editing Keys=edit_keys
+1 Other Stuff
+2 Compatibility=compatibility

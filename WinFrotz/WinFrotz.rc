@@ -1,0 +1,772 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\WinFrotz.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\WinFrotz.ico"
+IDR_WINFROTYPE          ICON    DISCARDABLE     "res\\WinFrotzDoc.ico"
+IDI_Z3                  ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_Z4                  ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_Z5                  ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_Z6                  ICON    DISCARDABLE     "res\\ico00003.ico"
+IDI_Z7                  ICON    DISCARDABLE     "res\\ico00004.ico"
+IDI_Z8                  ICON    DISCARDABLE     "res\\ico00005.ico"
+IDI_Z2                  ICON    DISCARDABLE     "res\\ico00006.ico"
+IDI_Z1                  ICON    DISCARDABLE     "res\\ico00007.ico"
+IDI_ZUNKNOWN            ICON    DISCARDABLE     "res\\ico00008.ico"
+IDI_INFOCOM             ICON    DISCARDABLE     "res\\ico00009.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_GAME
+    BUTTON      ID_FILE_SAVE_GAME
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_VIEW_SCROLLBACK
+    BUTTON      ID_VIEW_FONT
+    BUTTON      ID_VIEW_STATUS_FONT
+    BUTTON      ID_VIEW_DISPLAY_OPT
+    BUTTON      ID_VIEW_GRAPHICS
+    SEPARATOR
+    BUTTON      ID_COLORS_USERFG
+    BUTTON      ID_COLORS_USERBG
+    SEPARATOR
+    BUTTON      ID_OPTIONS_ALIAS
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Restart",                    ID_FILE_NEW
+        MENUITEM "&Open New Story...",          ID_FILE_OPEN
+        POPUP "Op&en"
+        BEGIN
+            MENUITEM "Saved Game",                  ID_FILE_GAME
+            MENUITEM "Alias List",                  ID_FILE_ALIAS
+            MENUITEM "Recording",                   ID_FILE_REC
+        END
+        POPUP "&Save"
+        BEGIN
+            MENUITEM "Game",                        ID_FILE_SAVE
+            MENUITEM "Alias List",                  ID_FILE_SAVE_ALIAS
+            MENUITEM "Recording",                   ID_FILE_SAVE_REC
+            MENUITEM "TransScript",                 ID_FILE_SAVE_TRANSCRIPT
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Scro&llback...\tCtrl+L",      ID_VIEW_SCROLLBACK
+        POPUP "&Fonts"
+        BEGIN
+            MENUITEM "&Display Font...",            ID_VIEW_FONT
+            MENUITEM "&Status Font...",             ID_VIEW_STATUS_FONT
+        END
+        MENUITEM "&Display Options...",         ID_VIEW_DISPLAY_OPT
+        MENUITEM "Graphics Options...",         ID_VIEW_GRAPHICS
+    END
+    POPUP "&Colors"
+    BEGIN
+        MENUITEM "&Foreground...",              ID_COLORS_USERFG
+        MENUITEM "&Background...",              ID_COLORS_USERBG
+        MENUITEM "Status F&oreground...",       ID_COLORS_USERINVFG
+        MENUITEM "Status B&ackground...",       ID_COLORS_USERINVBG
+        MENUITEM "&Emphasis Text...",           ID_COLORS_EMPHASIS
+        MENUITEM "B&old text...",               ID_COLORS_BOLD
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Aliases...",                 ID_OPTIONS_ALIAS
+        MENUITEM "&Debugging...",               ID_OPTIONS_DEBUGGING
+        MENUITEM "&Sound...",                   ID_OPTIONS_SOUND
+        MENUITEM "Auto &Load",                  ID_OPTIONS_AUTO_LOAD
+        MENUITEM "&Undo last turn",             ID_OPTIONS_UNDO_GAME
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About WinFrotz...",          ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_VIEW_SCROLLBACK,     VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_GAME,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 268, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About WinFrotz"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "WinFrotz Version 2.32 release 5.2 (2.32 R5.2)",
+                    IDC_TITLETEXT,60,13,145,8,NOT WS_GROUP
+    LTEXT           "",IDC_INFOLINE,60,21,151,8,NOT WS_GROUP
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,60,70,195,1
+    LTEXT           "System used physical memory:",IDC_STATIC,60,75,96,8,NOT 
+                    WS_GROUP
+    LTEXT           "(Avail mem)",IDC_PHYSICAL_MEM,160,75,47,8,NOT WS_GROUP
+    LTEXT           "Current Disk Free Space:",IDC_STATIC,60,85,90,8,NOT 
+                    WS_GROUP
+    LTEXT           "(Disk space)",IDC_DISK_SPACE,160,85,46,8,NOT WS_GROUP
+    DEFPUSHBUTTON   "OK",IDOK,214,14,40,14
+    LTEXT           "Z-code operations:",IDC_STATIC,60,95,67,8
+    LTEXT           "(Z-code ops)",IDC_ZCODE,160,95,41,8
+    LTEXT           "Z-code speed:",IDC_STATIC,60,105,47,8
+    LTEXT           "(Z-code speed)",IDC_ZCODESPEED,160,105,49,8
+    ICON            IDR_MAINFRAME,IDC_ABOUT_ICON,15,25,20,20,SS_SUNKEN | 
+                    WS_BORDER,WS_EX_CLIENTEDGE
+    LTEXT           "Report bugs to rich@kesmai.com",IDC_STATIC,60,45,107,9
+    LTEXT           "Latest version:http://www.cris.com/~Twist/WinFrotz/",
+                    IDC_STATIC,60,55,195,10
+    LTEXT           "",IDC_BUFFERED_TEXTOUT,60,115,125,8
+    ICON            IDI_INFOCOM,IDC_GAME_TYPE,15,80,20,20,SS_SUNKEN | 
+                    WS_BORDER
+END
+
+IDD_DIALOG_DISPLAY DIALOG DISCARDABLE  0, 0, 222, 141
+STYLE DS_MODALFRAME | DS_NOIDLEMSG | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Display Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,35,120,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,135,120,50,14
+    CONTROL         "Boldface font",IDC_BOLD_FONT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,15,75,55,8
+    CONTROL         "Boldface color",IDC_BOLD_COLOR,"Button",
+                    BS_AUTORADIOBUTTON,15,85,61,10
+    CONTROL         "No special effect",IDC_BOLD_NOEFFECT,"Button",
+                    BS_AUTORADIOBUTTON,15,95,69,10
+    CONTROL         "Use full color (slower)",IDC_DISPLAY_COLOR,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,125,15,83,10
+    CONTROL         "Dual color",IDC_DISPLAY_MONOCHROME,"Button",
+                    BS_AUTORADIOBUTTON,125,25,57,10
+    CONTROL         "Italic Font",IDC_EMPH_FONT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,15,15,47,10
+    CONTROL         "Emphasis color",IDC_EMPH_COLOR,"Button",
+                    BS_AUTORADIOBUTTON,15,25,63,10
+    CONTROL         "Underline font",IDC_EMPH_UNDERLINE,"Button",
+                    BS_AUTORADIOBUTTON,15,35,60,10
+    CONTROL         "No special effect",IDC_EMPH_NO_EFFECT,"Button",
+                    BS_AUTORADIOBUTTON,15,45,69,10
+    GROUPBOX        "Show emphasis as:",IDC_EMPH_GROUP,6,5,99,55
+    GROUPBOX        "Show bold as:",IDC_BOLD_GROUP,5,65,100,45
+    GROUPBOX        "Display Mode",IDC_DISPLAY_GROUP,115,5,100,35
+    GROUPBOX        "Updates",IDC_UPDATES_GROUP,115,50,100,47
+    CONTROL         "Lock Window Size",IDC_LOCK_SIZE,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,115,100,88,10
+    CONTROL         "Very Frequent",IDC_VERY_FREQUENT_UPDATES,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,125,60,60,10
+    CONTROL         "Frequent",IDC_FREQUENT_UPDATES,"Button",
+                    BS_AUTORADIOBUTTON,125,70,44,10
+    CONTROL         "Infrequent",IDC_INFREQUENT_UPDATES,"Button",
+                    BS_AUTORADIOBUTTON,125,80,48,10
+END
+
+IDD_ALIAS_LIST DIALOG DISCARDABLE  0, 0, 189, 169
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Alias List"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,132,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,132,24,50,14
+    LISTBOX         IDC_ALIAS_LIST,7,22,119,140,LBS_SORT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Aliases are",IDC_STATIC,7,7,35,10
+    LTEXT           "disabled",IDC_ALIAS_STATE,43,7,27,8
+    PUSHBUTTON      "&New",IDC_ALIAS_NEW,132,55,50,14,WS_GROUP
+    PUSHBUTTON      "&Delete",IDC_ALIAS_DELETE,132,73,50,14
+    PUSHBUTTON      "Delete &All",IDC_ALIAS_DELETE_ALL,132,91,50,14
+    PUSHBUTTON      "&Enable",IDC_ALIAS_ENABLE,132,124,50,14,WS_GROUP
+    PUSHBUTTON      "&Disable",IDC_ALIAS_DISABLE,132,142,50,14
+END
+
+IDD_ADD_ALIAS DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add an alias entry"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,28,74,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,107,74,50,14
+    EDITTEXT        IDC_ALIAS_EDIT1,15,20,155,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ALIAS_EDIT2,15,55,155,14,ES_AUTOHSCROLL
+    LTEXT           "Replace this text in an entry line:",IDC_STATIC,15,5,
+                    118,11
+    LTEXT           "with this text:",IDC_STATIC,15,40,106,8
+END
+
+IDD_GRAPHICS DIALOG DISCARDABLE  0, 0, 222, 181
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Graphics Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,30,160,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,140,160,50,14
+    GROUPBOX        "Emulate:",IDC_STATIC,5,30,95,55
+    CONTROL         "CGA Mode (B/W)",IDC_CGA_MODE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,15,45,72,10
+    CONTROL         "MCGA Mode (Best)",IDC_MCGA_MODE,"Button",
+                    BS_AUTORADIOBUTTON,15,55,77,10
+    CONTROL         "EGA Mode",IDC_EGA_MODE,"Button",BS_AUTORADIOBUTTON,15,
+                    65,51,10
+    GROUPBOX        "Screen Size",IDC_STATIC,5,95,95,55
+    CONTROL         "640 x 400 (best)",IDC_SCREEN_640,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,15,110,66,10
+    CONTROL         "960 x 600",IDC_SCREEN_960,"Button",BS_AUTORADIOBUTTON,
+                    15,120,47,10
+    CONTROL         "1280 x 800",IDC_SCREEN_1280,"Button",BS_AUTORADIOBUTTON,
+                    15,130,51,10
+    LTEXT           "Graphics options affect only Version 6 games (Arthur, Zork Zero,",
+                    IDC_STATIC,10,5,205,8
+    LTEXT           "Journey and Shogun from Infocom)",IDC_STATIC,10,15,205,
+                    8
+    GROUPBOX        "Font",IDC_STATIC,115,30,95,55
+    PUSHBUTTON      "Choose",IDC_GRAPHICS_FONT,140,40,50,14,WS_GROUP
+    LTEXT           "(Name)",IDC_FONT_TYPE,155,60,50,8
+    LTEXT           "(Size)",IDC_FONT_SIZE,155,70,20,8
+    LTEXT           "Current:",IDC_STATIC,125,60,26,8
+    LTEXT           "Size:",IDC_STATIC,125,70,16,8
+    LTEXT           "All games work well in the first resolution (640x400). Other resolutions may exhibit some problems. For best results run 640x400, MCGA graphics.",
+                    IDC_STATIC,115,100,95,50
+END
+
+IDD_DEBUGGING DIALOG DISCARDABLE  0, 0, 172, 190
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Debug Attribute Bits"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,20,158,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,100,158,50,14
+    CONTROL         "Watch attribute assignment",IDC_ASSIGN_YES,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,30,10,119,10
+    CONTROL         "Watch attribute testing",IDC_TESTING_YES,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,30,30,111,10
+    CONTROL         "Watch object movement",IDC_MOVEMENT_YES,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,30,50,115,10
+    CONTROL         "Watch object locating",IDC_LOCATING_YES,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,30,70,110,10
+    CONTROL         "Set Piracy Bit On",IDC_PIRACY,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,30,90,85,10
+    LTEXT           "Note: These settings last only for this\nsession, they are not saved.",
+                    IDC_STATIC,25,130,115,20
+    CONTROL         "Set Tandy Bit On",IDC_TANDY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,30,108,85,10
+END
+
+IDD_SOUND DIALOGEX 0, 0, 177, 156
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sound Controls/Info"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,15,130,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,115,130,50,14
+    CONTROL         "Slider1",IDC_VOLUME,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_BOTH | WS_GROUP | WS_TABSTOP,35,45,100,25,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Volume level:",IDC_STATIC,60,30,43,8
+    CONTROL         "Sound enabled",IDC_SOUND_ENABLED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,10,70,10
+    LTEXT           "Wave out device:",IDC_STATIC,15,80,58,8
+    LTEXT           "Supports volume:",IDC_STATIC,15,95,56,8
+    LTEXT           "None found",IDC_SOUND_DEVICE,75,80,85,8
+    LTEXT           "No",IDC_SUPPORT_VOLUME,75,95,20,8
+    LTEXT           "Story file has attempted to play sound:",IDC_STATIC,15,
+                    110,120,8
+    LTEXT           "No",IDC_HAS_PLAYED_SOUND,140,110,17,8
+END
+
+IDD_SCROLLBACK DIALOGEX 0, 0, 372, 169
+STYLE WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Scrollback - use Ctrl-C to copy text, Esc to exit this mode."
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SCROLLEDIT,0,2,365,160,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+END
+
+IDD_AUTO_LOAD DIALOG DISCARDABLE  0, 0, 202, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Auto-Load story file"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,26,75,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,121,75,50,14
+    EDITTEXT        IDC_AUTO_EDIT,16,20,168,14,ES_AUTOHSCROLL
+    LTEXT           "Automatically load the following file when WinFrotz starts:",
+                    IDC_STATIC,10,5,180,8
+    PUSHBUTTON      "Browse for file",IDC_AUTO_BUTTON,75,40,50,14
+    CONTROL         "Disable auto-load feature",IDC_AUTO_OVERRIDE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,53,60,93,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,3,2,5
+ PRODUCTVERSION 2,3,2,5
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Release, graphics and mouse support.\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "WINFROTZ Z-Machine interpreter\0"
+            VALUE "FileVersion", "2.32 R5.2b\0"
+            VALUE "InternalName", "WINFROTZ\0"
+            VALUE "LegalCopyright", "Copyright © 1998 Rich Lawrence\0"
+            VALUE "OriginalFilename", "WINFROTZ.EXE\0"
+            VALUE "ProductName", "WinFrotz\0"
+            VALUE "ProductVersion", "2.32 R5.2b\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 261
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_DIALOG_DISPLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 215
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_ALIAS_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 162
+    END
+
+    IDD_ADD_ALIAS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_GRAPHICS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_DEBUGGING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 165
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+
+    IDD_SOUND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_SCROLLBACK, DIALOG
+    BEGIN
+        RIGHTMARGIN, 365
+        BOTTOMMARGIN, 162
+    END
+
+    IDD_AUTO_LOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "WinFrotz\n\nWinFro\n\n\nWinFrotz.Document\nWinFro Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "WinFrotz"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Restart the current story\nRestart Game"
+    ID_FILE_OPEN            "Load a different story file\nOpen Story"
+    ID_FILE_CLOSE           "Close the active story\nClose"
+    ID_FILE_SAVE            "Save a game\nSave"
+    ID_FILE_SAVE_AS         "Save a game with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_FONT            "Select a font for the lower window (normal text)\nDisplay Font"
+    ID_COLORS_USERFG        "Select the color of normal text\nForeground color"
+    ID_COLORS_USERBG        "Select the background color of normal text\nBackground color"
+    ID_VIEW_STATUS_FONT     "Select a font for use in the upper window (status line)\nStatus Font"
+    ID_COLORS_USERINVFG     "Select the foreground color for the status bar (reverse text)"
+    ID_COLORS_USERINVBG     "Select the background color for the status bar (reverse text)"
+    ID_VIEW_UPDATES         "When off display is jumpier, but game runs faster"
+    ID_FILE_GAME            "Load a saved game\nLoad Game"
+    ID_FILE_ALIAS           "Load an alias file"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    CG_IDS_PHYSICAL_MEM     "%lu KB"
+    CG_IDS_DISK_SPACE       "%lu KB Free on %c:"
+    CG_IDS_DISK_SPACE_UNAVAIL "Unavailable"
+    ID_INDICATOR_TIME       "Time"
+    CG_IDS_PHYSICAL_MEM1    "%lu KB"
+    CG_IDS_DISK_SPACE1      "%lu KB Free on %c:"
+    CG_IDS_DISK_SPACE_UNAVAIL1 "Unavailable"
+    ID_INDICATOR_LOCK       "UNLOCK"
+    ID_INDICATOR_DIM        "80x25"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_INS        "INS "
+    ID_INDICATOR_GAME_REC   "      "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_REC             "Load a playback recording"
+    ID_FILE_SAVE_ALIAS      "Save your current Alias list"
+    ID_FILE_SAVE_REC        "Save a recording of your moves"
+    ID_VIEW_OPTIONS         "Choose between color or font display styles"
+    ID_VIEW_DISPLAY_OPT     "Select between color/font styles\nDisplay Options"
+    ID_FILE_SAVE_GAME       "Save game position\nSave Game"
+    ID_COLORS_EMPHASIS      "Select a special color for displaying emphasis when in color mode"
+    ID_COLORS_BOLD          "Select a special color for displaying bold when in color mode"
+    ID_VIEW_GRAPHICS        "Change options for graphic (version 6) games\nV6 Options"
+    ID_OPTIONS_DEBUGGING    "Set Z-Machine attribute bits for debugging/cheat"
+    ID_OPTIONS_ALIAS        "Enable/Disable, add/delete aliases\nAliases"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OPTIONS_SOUND        "Sound options and information"
+    ID_VIEW_SCROLLBACK      "Display a scrollback buffer of the main window contents\nScrollback"
+    ID_SAVE_TRANSCRIPT      "Save a copy of the window 0 scrollback buffer"
+    ID_FILE_SAVE_TRANSCRIPT "Saves a copy of the window 0 scrollback buffer"
+    ID_OPTIONS_AUTO_LOAD    "Pick a story file to be loaded automatically when WinFrotz is launched"
+    ID_UNDO_GAME            "Takes back your last game action"
+    ID_OPTIONS_UNDO_GAME    "Takes back your last action in the game"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\WinFrotz.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

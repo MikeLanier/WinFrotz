@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{77F471B4-CF4A-464A-8309-7B3918AED450}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Temp\LOG.txt = ..\..\..\Temp\LOG.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinFrotz", "WinFrotz.vcxproj", "{3E351D6E-8E49-4948-AC20-CEC1C627909B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		SHDebug|Win32 = SHDebug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E351D6E-8E49-4948-AC20-CEC1C627909B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E351D6E-8E49-4948-AC20-CEC1C627909B}.Debug|Win32.Build.0 = Debug|Win32
+		{3E351D6E-8E49-4948-AC20-CEC1C627909B}.Release|Win32.ActiveCfg = Release|Win32
+		{3E351D6E-8E49-4948-AC20-CEC1C627909B}.Release|Win32.Build.0 = Release|Win32
+		{3E351D6E-8E49-4948-AC20-CEC1C627909B}.SHDebug|Win32.ActiveCfg = SHDebug|Win32
+		{3E351D6E-8E49-4948-AC20-CEC1C627909B}.SHDebug|Win32.Build.0 = SHDebug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

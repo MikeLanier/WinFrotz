@@ -1,0 +1,57 @@
+// MAKEHELP.BAT generated Help Map file.  Used by WINFROTZ.HPJ. 
+ 
+// Commands (ID_* and IDM_*) 
+HID_INDICATOR_TIME                      0x10069
+HID_INDICATOR_LOCK                      0x1006E
+HID_INDICATOR_DIM                       0x1006F
+HID_INDICATOR_INS                       0x10070
+HID_INDICATOR_GAME_REC                  0x10071
+HID_VIEW_FONT                           0x18003
+HID_COLORS_USERFG                       0x18006
+HID_COLORS_USERBG                       0x18007
+HID_VIEW_STATUS_FONT                    0x18008
+HID_COLORS_USERINVFG                    0x18009
+HID_COLORS_USERINVBG                    0x1800A
+HID_VIEW_LOCK                           0x1800B
+HID_VIEW_UPDATES                        0x1800C
+HID_FILE_GAME                           0x1800E
+HID_FILE_ALIAS                          0x1800F
+HID_FILE_REC                            0x18010
+HID_FILE_SAVE_ALIAS                     0x18011
+HID_FILE_SAVE_REC                       0x18012
+HID_VIEW_OPTIONS                        0x18013
+HID_VIEW_DISPLAY_OPT                    0x18014
+HID_ALIAS_MANAGE                        0x18016
+HID_FILE_SAVE_GAME                      0x18017
+HID_COLOR_BOLD                          0x18019
+HID_COLORS_EMPHASIS                     0x1801A
+HID_COLORS_BOLD                         0x1801B
+HID_VIEW_GRAPHICS                       0x1801C
+HID_OPTIONS_DEBUGGING                   0x1801D
+HID_OPTIONS_ALIAS                       0x1801F
+HID_OPTIONS_SOUND                       0x18020
+HID_VIEW_SCROLLBACK                     0x18021
+HID_SAVE_TRANSCRIPT                     0x18022
+HID_FILE_SAVE_TRANSCRIPT                0x18023
+HID_OPTIONS_AUTO_LOAD                   0x18025
+HID_UNDO_GAME                           0x18026
+HID_OPTIONS_UNDO_GAME                   0x18027
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_WINFROTYPE                         0x20081
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_DIALOG_DISPLAY                     0x20083
+HIDD_ALIAS_LIST                         0x20084
+HIDD_ADD_ALIAS                          0x20085
+HIDD_GRAPHICS                           0x20086
+HIDD_DEBUGGING                          0x20088
+HIDD_SOUND                              0x20089
+HIDD_SCROLLBACK                         0x2008A
+HIDD_AUTO_LOAD                          0x20099
+ 
+// Frame Controls (IDW_*) 

@@ -1,0 +1,793 @@
+{\rtf1\ansi \deff0\deflang1033{\fonttbl{\f0\froman\fcharset0\fprq2 Tms Rmn{\*\falt Times New Roman};}{\f1\froman\fcharset2\fprq2 Symbol;}{\f2\fswiss\fcharset0\fprq2 Helv{\*\falt Arial};}{\f3\fmodern\fcharset0\fprq1 Courier;}
+{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f5\fswiss\fcharset0\fprq2 Arial;}{\f6\froman\fcharset0\fprq2 MS Serif;}{\f7\fswiss\fcharset0\fprq2 MS Sans Serif;}{\f8\froman\fcharset0\fprq2 Times;}{\f9\fswiss\fcharset0\fprq2 Helvetica{\*\falt Arial};}
+{\f10\fswiss\fcharset0\fprq2 System;}{\f11\fmodern\fcharset0\fprq1 Courier New;}{\f12\froman\fcharset0\fprq2 New York;}{\f13\fswiss\fcharset0\fprq2 Geneva;}{\f14\fnil\fcharset2\fprq2 Marlett;}{\f15\fnil\fcharset2\fprq2 Wingdings;}
+{\f16\fswiss\fcharset0\fprq2 Verdana;}{\f17\fscript\fcharset0\fprq2 Comic Sans MS;}{\f18\fswiss\fcharset0\fprq2 Arial Narrow;}{\f19\fswiss\fcharset0\fprq2 Arial Black;}{\f20\fswiss\fcharset0\fprq2 Arial Rounded MT Bold;}
+{\f21\froman\fcharset0\fprq2 Book Antiqua;}{\f22\froman\fcharset0\fprq2 Bookman Old Style;}{\f23\fswiss\fcharset0\fprq2 Century Gothic;}{\f24\froman\fcharset0\fprq2 Century Schoolbook;}{\f25\fswiss\fcharset0\fprq2 Haettenschweiler;}
+{\f26\fdecor\fcharset0\fprq2 Algerian;}{\f27\fdecor\fcharset0\fprq2 Braggadocio;}{\f28\fswiss\fcharset0\fprq2 Britannic Bold;}{\f29\fscript\fcharset0\fprq2 Brush Script MT;}{\f30\fdecor\fcharset0\fprq2 Colonna MT;}{\f31\fdecor\fcharset0\fprq2 Desdemona;}
+{\f32\froman\fcharset0\fprq2 Footlight MT Light;}{\f33\froman\fcharset0\fprq2 Garamond;}{\f34\fswiss\fcharset0\fprq2 Impact;}{\f35\fdecor\fcharset0\fprq2 Kino MT;}{\f36\fscript\fcharset0\fprq2 Matura MT Script Capitals;}
+{\f37\fdecor\fcharset0\fprq2 Playbill;}{\f38\fmodern\fcharset2\fprq1 MS LineDraw;}{\f39\froman\fcharset0\fprq2 Random House Extended;}{\f40\fnil\fcharset0\fprq2 blacc_.ttf;}{\f41\froman\fcharset0\fprq2 Wide Latin;}{\f42\froman\fcharset0\fprq2 Georgia;}
+{\f43\fswiss\fcharset0\fprq2 Trebuchet MS;}{\f44\fscript\fcharset0\fprq2 Bradley Hand ITC;}{\f45\fdecor\fcharset0\fprq2 Curlz MT;}{\f46\froman\fcharset0\fprq2 Elephant;}{\f47\fswiss\fcharset0\fprq2 Eras Demi ITC;}
+{\f48\fswiss\fcharset0\fprq2 Eras Ultra ITC;}{\f49\fdecor\fcharset0\fprq2 Matisse ITC;}{\f50\froman\fcharset0\fprq2 Rockwell;}{\f51\fdecor\fcharset0\fprq2 Snap ITC;}{\f52\fdecor\fcharset0\fprq2 Tempus Sans ITC;}
+{\f53\fscript\fcharset0\fprq2 Viner Hand ITC;}{\f54\fswiss\fcharset0\fprq1 MS Dialog;}{\f55\froman\fcharset0\fprq2 Calisto MT;}{\f56\fmodern\fcharset0\fprq1 Lucida Console;}{\f57\fmodern\fcharset255\fprq1 Terminal;}{\f58\fmodern\fcharset0\fprq1 Fixedsys;}
+{\f59\froman\fcharset255\fprq2 Roman;}{\f60\fscript\fcharset255\fprq2 Script;}{\f61\fmodern\fcharset255\fprq2 Modern;}{\f62\fswiss\fcharset0\fprq2 Small Fonts;}{\f63\fswiss\fcharset0\fprq2 MS Dialog Light;}{\f64\fswiss\fcharset0\fprq2 MS SystemEx;}
+{\f65\fswiss\fcharset0\fprq2 Lucida Sans Unicode;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar \fs20 \snext0 Normal;}{\s1\sb240\nowidctlpar 
+\b\f2\ul \sbasedon0\snext0 heading 1;}{\s2\sb120\nowidctlpar \b\f2 \sbasedon0\snext0 heading 2;}{\s3\li360\nowidctlpar \b \sbasedon0\snext17 heading 3;}{\s4\li360\nowidctlpar \ul \sbasedon0\snext17 heading 4;}{\s5\li720\nowidctlpar \b\fs20 
+\sbasedon0\snext17 heading 5;}{\s6\li720\nowidctlpar \fs20\ul \sbasedon0\snext17 heading 6;}{\s7\li720\nowidctlpar \i\fs20 \sbasedon0\snext17 heading 7;}{\s8\li720\nowidctlpar \i\fs20 \sbasedon0\snext17 heading 8;}{\s9\li720\nowidctlpar \i\fs20 
+\sbasedon0\snext17 heading 9;}{\*\cs10 \additive Default Paragraph Font;}{\*\cs15 \additive\f0\fs16\up6\lang1033 \sbasedon10 footnote reference;}{\s16\nowidctlpar \fs20 \sbasedon0\snext16 footnote text;}{\s17\li720\nowidctlpar \fs20 \sbasedon0\snext17 
+Normal Indent;}{\s18\fi-240\li480\sb80\nowidctlpar\tx480 \f9 \sbasedon0\snext18 nscba;}{\s19\fi-240\li240\sa20\nowidctlpar \f9 \sbasedon0\snext19 j;}{\s20\li480\sa20\nowidctlpar \f9 \sbasedon0\snext20 ij;}{\s21\sb80\sa20\nowidctlpar \f9 
+\sbasedon0\snext21 btb;}{\s22\fi-240\li2400\sb20\sa20\nowidctlpar \f9\fs20 \sbasedon0\snext22 ctcb;}{\s23\fi-240\li480\sa40\nowidctlpar\tx480 \f9 \sbasedon0\snext23 ns;}{\s24\sa120\nowidctlpar \f9\fs28 \sbasedon0\snext24 TT;}{
+\s25\fi-240\li2400\sa20\nowidctlpar \f9 \sbasedon0\snext25 crtj;}{\s26\fi-240\li480\nowidctlpar\tx480 \f9 \sbasedon0\snext26 nsca;}{\s27\sa20\nowidctlpar \f9 \sbasedon0\snext27 bt;}{\s28\li240\sb120\sa40\nowidctlpar \f9 \sbasedon0\snext28 Hf;}{
+\s29\li240\sb120\sa40\nowidctlpar \f9 \sbasedon0\snext29 Hs;}{\s30\li480\sb120\sa40\nowidctlpar \f9 \sbasedon0\snext30 RT;}{\s31\fi-2160\li2160\sb240\sa80\nowidctlpar\tx2160 \f9 \sbasedon0\snext31 c;}{\s32\li2160\sa20\nowidctlpar \f9 \sbasedon0\snext32 
+ct;}{\s33\li240\sa20\nowidctlpar \f9 \sbasedon0\snext33 it;}{\s34\li480\nowidctlpar \f9\fs20 \sbasedon0\snext34 nsct;}{\s35\fi-160\li400\sb80\sa40\nowidctlpar \f9 \sbasedon0\snext35 nscb;}{\s36\fi-2640\li2880\sb120\sa40\nowidctlpar\brdrb\brdrs\brdrw15 
+\brdrbtw\brdrs\brdrw15 \tx2880 \f9 \sbasedon0\snext36 HC2;}{\s37\fi-2640\li2880\sb120\sa20\nowidctlpar\tx2880 \f9 \sbasedon0\snext37 C2;}{\s38\fi-240\li2400\sa20\nowidctlpar \f9\fs20 \sbasedon0\snext38 ctc;}{\s39\li2160\sb160\nowidctlpar \f9 
+\sbasedon0\snext39 crt;}{\s40\li480\sb20\sa40\nowidctlpar \f9 \sbasedon0\snext40 or;}{\s41\fi-259\li360\sb40\sa40\nowidctlpar\tx360 \f7\fs20 \sbasedon0\snext41 Ln1;}{\s42\li115\sb80\sa80\nowidctlpar \f7\fs20 \sbasedon0\snext0 *Intro;}{
+\s43\li115\sb80\sa80\keepn\nowidctlpar \b\f7 \sbasedon3\snext42 *Title;}{\s44\fi-245\li360\sb80\nowidctlpar \f7\fs20 \snext44 *Jl;}{\s45\li360\sb40\sa40\nowidctlpar \f7\fs20 \snext0 Lp1;}{\s46\fi-1800\li1915\sb60\sl-240\slmult0\nowidctlpar\tx1915 
+\f7\fs20 \sbasedon0\snext46 Tph;}{\s47\li115\sb120\sa80\nowidctlpar \b\f7\fs20 \snext41 Proch;}{\*\cs48 \additive\super \sbasedon10 endnote reference;}}{\info{\title AFXCORE}{\subject MFC Core RTF Help}{\author Rich Lawrence}{\operator Rich Lawrence}
+{\creatim\yr1992\mo10\dy7\hr11\min4}{\revtim\yr1997\mo9\dy27\hr1\min38}{\version9}{\edmins22}{\nofpages69}{\nofwords6671}{\nofchars38026}{\*\company  }{\vern57443}}\widowctrl\ftnbj\aenddoc\hyphcaps0 \fet0\sectd \linex576\endnhere {\*\pnseclvl1
+\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 #} main_index}}{\fs16\up6   }{
+\b\f2\fs24\up6 WinFrotz Help Index}{\b\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f9 
+\par }{\b\f2 How To ...
+\par }\pard \sl240\slmult0\widctlpar {\f2 \tab }{\f2\uldb Understand more about WinFrotz}{\v\f2 Getting Started}{\f2 
+\par \tab }{\f2\uldb Obtain Story Files}{\v\f2 get_games}{\f2 
+\par \tab }{\f2\uldb Play a story file}{\v\f2\uldb start_story}{\f2 
+\par \tab }{\f2\uldb Edit input}{\v\f2\uldb edit_keys}{\f9\ulw 
+\par }\pard \sl240\slmult0\widctlpar {\f9\ulw 
+\par }{\b\f2 Commands
+\par }\pard \sl240\slmult0\widctlpar {\f2 \tab }{\f2\uldb File menu}{\v\f2 menu_file}{\f2 
+\par \tab }{\f2\uldb Edit menu}{\v\f2 menu_edit}{\f2 
+\par \tab }{\f2\uldb View menu}{\v\f2 menu_view}{\f2 
+\par \tab }{\f2\uldb Colors menu}{\v\f2 menu_colors}{\f2 
+\par \tab }{\f2\uldb Options Menu}{\v\f2 menu_options}{\f2 
+\par \tab }{\f2\uldb Help menu}{\v\f2 menu_help}{\f2 
+\par \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} Getting Started}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} starting}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $}
+ Getting Started}}{\f2  }{\b\f2 Getting Started
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 WinFrotz is a }{\f2\ul Z-Machine}{\v\f2 Z_Machine}{\f2  interpreter (or more properly, emulator) that lets you load interactive fiction }{\f2\ul story files}{\v\f2\ul story_file}{\f2 
+ and play them under Windows 95 or Windows NT.  The most widely known examples of interactive fiction are the old }{\f2\ul Infocom}{\v\f2\ul Infocom}{\f2  adventure games; WinFrotz will play almost all of those (see }{\f2\uldb compatibility}{\v\f2\uldb 
+compatibility}{\f2  notes).
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 However there are plenty of more recent interactive fictions works available; in fac
+t, there are more works of interactive fiction released after Infocom ceased producing them than Infocom released themselves.  This is mainly do to the freely available compilers to create these files.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+To get going with WinFrotz all you need to do is track down some story files and load them up. There are a few in the WinFrotz distribution archive you can try out, or if you have one of the Infocom games (including the re-release of them by Activision) a
+ll you need to do is load the }{\f11 .dat}{\f2  file from it and you can play.  Or you can go get some of the more recent, public domain and shareware story files from the interactive fiction repository on the internet at ftp.gmd.de.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 For an easy starting point you can head to the WinFrotz web pages which have links and pointers for locations of story files, background info, etc.  They are located at:
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par http://www.cris.com/~Twist/WinFrotz/
+\par 
+\par }\pard \sl240\slmult0\widctlpar {\f2 (Obtaining story files is more completely discussed in }{\f2\uldb Obtaining Story Files}{\v\f2 get_games}{\f2 )
+\par }\pard \sl240\slmult0\widctlpar {\f2 Have fun!
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} menu_file}K{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 K} files: managing}}{\f2  }{\cs15\fs16\up6 $
+{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 $} File menu commands}}{\f2  }{\b\f2 File menu commands}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par The File menu offers the following commands:
+\par 
+\par }\trowd \trgaph108\trleft-108 \cellx1302\cellx8622 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Restart}{\v\f2 HID_FILE_NEW}{\f2 \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Restart the current story file.\cell }\pard \widctlpar\intbl {\f2 \row 
+}\trowd \trgaph108\trleft-108 \cellx1302\cellx8622 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Open Story}{\v\f2 HID_FILE_OPEN}{\f2\uldb \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Opens a new story file\cell }\pard \widctlpar\intbl {\f2 \row 
+}\pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Open}{\v\f2 open_file}{\f2\uldb \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Opens a data file such as a saved game (only works after a story is loaded)\cell }\pard \widctlpar\intbl {\f2 \row }\pard 
+\sl240\slmult0\widctlpar\intbl {\f2\uldb Save}{\v\f2 HID_FILE_SAVE}{\f2\uldb \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Saves an opened document using the same file name.\cell }\pard \widctlpar\intbl {\f2 \row }\pard \sl240\slmult0\widctlpar\intbl {
+\f2\uldb Print}{\v\f2 HID_FILE_PRINT}{\f2\uldb \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Prints a document.\cell }\pard \widctlpar\intbl {\f2 \row }\pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Print Preview}{\v\f2 HID_FILE_PRINT_PREVIEW}{
+\f2\uldb \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Displays the document on the screen as it would appear printed.\cell }\pard \widctlpar\intbl {\f2 \row }\pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Print Setup}{\v\f2 HID_FILE_PRINT_SETUP}{
+\f2\uldb \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Selects a printer and printer connection.\cell }\pard \widctlpar\intbl {\f2 \row }\trowd \trgaph108\trleft-108 \cellx1302\cellx8622 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Exit}{\v\f2 
+HID_APP_EXIT}{\f2 \tab 
+\par }\pard \sl240\slmult0\widctlpar\intbl {\f2\uldb \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Exits WinFrotz.\cell }\pard \widctlpar\intbl {\f2 \row }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} menu_edit}}{\b\f2 Edit menu commands}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par The Edit menu offers the following commands:
+\par }\pard \fi-720\li720\sl240\slmult0\widctlpar {\f2 
+\par }\trowd \trgaph108\trleft-108 \cellx1497\cellx10212 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Undo}{\v\f2 HID_EDIT_UNDO}{\f2 \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Reverse previous editing operation.\cell }\pard \widctlpar\intbl {\f2 \row 
+}\trowd \trgaph108\trleft-108 \cellx1497\cellx10212 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Cut}{\v\f2 HID_EDIT_CUT}{\f2\uldb \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Deletes data from the document and moves it to the clipboard.\cell 
+}\pard \widctlpar\intbl {\f2 \row }\pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Copy}{\v\f2 HID_EDIT_COPY}{\f2\uldb \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Copies data from the document to the clipboard.\cell }\pard \widctlpar\intbl {\f2 \row 
+}\trowd \trgaph108\trleft-108 \cellx1497\cellx10212 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Paste}{\v\f2 HID_EDIT_PASTE}{\f2\uldb \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Pastes data from the clipboard into the document.\cell }\pard 
+\widctlpar\intbl {\f2 \row }\pard \fi-720\li720\sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \tab \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} menu_view}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} fonts}${\footnote \pard\plain 
+\s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Selecting (View menu)}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} display options}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Selecting (View menu)}K{\footnote 
+\pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} graphics}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Selecting (View menu)}} {\b\f2 View menu commands}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par The View menu offers the following commands:
+\par 
+\par }\trowd \trgaph108\trleft-108 \cellx1272\cellx7452 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Toolbar}{\v\f2 HID_VIEW_TOOLBAR}{\f2\uldb \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Shows or hides the toolbar.\cell }\pard \widctlpar\intbl {\f2 
+\row }\trowd \trgaph108\trleft-108 \cellx1272\cellx7452 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Status Bar}{\v\f2 HID_VIEW_STATUS_BAR}{\f2\uldb \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Shows or hides the status bar.\cell }\pard 
+\widctlpar\intbl {\f2 \row }\pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Fonts}{\v\f2 font_choices}{\f2\uldb \cell }\pard \fi-720\li720\sl240\slmult0\widctlpar\intbl {\f2 Select the fonts used for WinFrotz\cell }\pard \widctlpar\intbl {\f2 \row }\pard 
+\sl240\slmult0\widctlpar\intbl {\f2\uldb Display Options}{\v\f2 HIDD_DIALOG_DISPLAY}{\f2\uldb \cell }\pard \sl240\slmult0\widctlpar\intbl {\f2 Control the WinFrotz screen properties and how the program chooses to indicate various display styles\cell 
+}\pard \widctlpar\intbl {\f2 \row }\trowd \trgaph108\trleft-108 \cellx1272\cellx7452 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Graphics}{\v\f11\fs18\cf1 HIDD_GRAPHICS}{\f2\uldb \cell }{\f2 Control how WinFrotz handles }{\f2\ul V6}{\v\f2 version_6}{
+\f2  (graphical) Infocom games such as Journey, Arthur, etc.\cell }\pard \widctlpar\intbl {\f2 \row }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} menu_colors}K{\footnote 
+\pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} colors}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Selecting (Colors menu)}} {\b\f2 Colors menu commands
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 This menu consists of six options: Foreground, Background, Status Foreground, Status Background, Emphasis Text, and Bold Text.  Selecting any of these will bring up a standard Windows }{\f2\uldb Color dialog}{\v\f2 
+AFX_HIDD_COLOR}{\f2 .  If you are in dual color mode (the default, and changed by the }{\f2\uldb Display Options}{\v\f2\uldb HIDD_DIALOG_DISPLAY}{\f2  dialog in the View menu) only the first two choices will be available.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 It is possible to select a color and not immediately see an effect; for instance, if you change the Bold color and have told WinFrotz via the }{\f2\uldb Display Options}{\v\f2\uldb HIDD_DIALOG_DISPLAY}{\f2 
+ dialog to print bold as an actual bold font, you won\rquote t see any difference.  Also, many games simply do not have Bold or Emphasis text in them.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 The }{\f11 Status}{\f2 
+ colors are slightly misnamed; what you are really doing is setting the colors for reverse printed text.  Generally the status area is printed completely in reverse, but sometimes text is also printed in the display are that way as well.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} menu_help}}{\b\f2 Help menu commands}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 The Help menu offers the following commands, which provide you assistance with this application: 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\trowd \trgaph108\trleft-108 \cellx1077\cellx7257 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Help Topics}{\v\f2 HID_HELP_INDEX}{\f2\uldb \cell }\pard \fi-720\li720\sl240\slmult0\widctlpar\intbl {\f2 Offers you an index to topics on which yo
+u can get help.\cell }\pard \widctlpar\intbl {\f2 \row }\trowd \trgaph108\trleft-108 \cellx1077\cellx7257 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb About}{\v\f2 HID_APP_ABOUT}{\f2\uldb \cell }\pard \fi-720\li720\sl240\slmult0\widctlpar\intbl {\f2 
+Displays the version number of this application.\cell }\pard \widctlpar\intbl {\f2 \row }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} menu_options}K{\footnote \pard\plain 
+\s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} sound}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Options Menu}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} aliases}${\footnote \pard\plain \s16\nowidctlpar \fs20 {
+\cs15\fs16\up6 $} Options Menu}}{\f2  }{\b\f2 Options menu commands}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 The options menu offers the following commands, which affect the way WinFrotz plays a story file:
+\par }\trowd \trgaph108\trleft-108 \cellx1077\cellx7257 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Aliases}{\v\f2 HID_OPTIONS_ALIAS}{\f2\uldb \cell }\pard \fi-720\li720\sl240\slmult0\widctlpar\intbl {\f2 Manages aliases for text input.\cell }\pard 
+\widctlpar\intbl {\f2 \row }\trowd \trgaph108\trleft-108 \cellx1077\cellx7257 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Debugging}{\v\f2 HID_OPTIONS_DEBUGGING}{\f2\uldb \cell }\pard \fi-720\li720\sl240\slmult0\widctlpar\intbl {\f2 
+Sets various debug flags for the Z-machine.\cell }\pard \widctlpar\intbl {\f2 \row }\pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Sound}{\v\f2 HID_OPTIONS_SOUND}{\f2\uldb \cell }\pard \fi-720\li720\sl240\slmult0\widctlpar\intbl {\f2 
+Controls volume, and whether WinFrotz plays sounds at all.\cell }\pard \widctlpar\intbl {\f2 \row }\pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Auto Load}{\v HID_OPTIONS_AUTO_LOAD}{\f2\uldb \cell }\pard \fi-720\li720\sl240\slmult0\widctlpar\intbl {\f2 
+Controls which story (if any) is automatically loaded when WinFrotz is started. You can use this to bookmark the story you are currently playing and not have to load it manually next time.\cell }\pard \widctlpar\intbl {\f2 \row }\trowd 
+\trgaph108\trleft-108 \cellx1077\cellx7257 \pard \sl240\slmult0\widctlpar\intbl {\f2\uldb Undo Last Turn}{\v\f2 HID_OPTIONS_UNDO_GAME}{\f2\uldb \cell }\pard \fi-720\li720\sl240\slmult0\widctlpar\intbl {\f2 
+Allows you to take back your last action in the game.\cell }\pard \widctlpar\intbl {\f2 \row }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} Z_Machine}}{\f2  }{\b\f2 The Z-Machine
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 The Z-Machine was a computer that didn\rquote t exist, but had plenty of programs written for it.  This was an idea of the original founders of }{\f2\ul Infocom}{\v\f2\ul Infocom}{\f2 
+; to come up with a computer design specifically built to play interactive fiction (adventure) stories.  They designed the \lquote operating system\rquote 
+ of this mythical computer to support what they needed to write adventure games and that was pretty much it.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 When they wrote actual adventures, they of course didn\rquote t have a Z-Machine handy, so instead programs were written on }{\i\f2 other}{\f2 
+ computers that emulated the behavior of the Z-machine.  Since the capabilities required were clearly defined by the Z-Machine structure itself, it made porting their adventure games to a variety of platforms easier.  All they had to do was write a Z-M
+achine emulator for the platform in question and they would then be able to run }{\i\f2 all}{\b\i\f2  }{\f2 the Infocom adventures.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+This worked out well for people who wanted to play the Infocom adventures later on.  The same principle that made Z-Machine emulators versatile for Infocom works for us today; WinFrotz is basically a Z-Machine emulator designed specifically for Windows.  
+Additionally, after Infocom more or less ceased to exist, programmers reverse engineered the capabilities of the Z-Machine and wrote their own compi
+lers to create Z-Machine code.  So today it is easy to create a Z-Machine program; and since so many Z-Machine emulators exist you can be assured a Z-Machine program will run on a whole variety of computer types, all the way from advanced Unix workstation
+s to palmtop machines.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_FILE_NEW}K{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 K} files: managing}}{\f2  }{\cs15\fs16\up6 $
+{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 $} File New command}}{\f2  }{\b\f2 Restart command (File menu)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Use this command to restart the current story file. You will begin from the beginning as if you had just loaded the story. It is not required to Restart before loading a saved game position.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 You can open a different story file from the one you are playing using the }{\f2\uldb Open Story command}{\v HID_FILE_OPEN}{\f2 .
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }{\b\f2 Shortcuts
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Toolbar:\tab \{bmc filenew.bmp\}
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} start_story}}{\f2  }{\b\f2 Starting a Story}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 To start a story file, you simply have to open it using the File menu option }{\f2\uldb Open Story}{\v\f2 HID_FILE_OPEN}{\f2 
+.  After it is opened WinFrotz will automatically start the story at the beginning, which usually means displaying some text for you to read as an introduction.  If you have previously played the same story file and want to pick up where you left off,
+ you can load a }{\f2\ul saved game}{\v\f2 saved_game}{\f2  using the }{\f2\uldb Open}{\v\f2 open_file}{\f2  command from the File menu.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_FILE_OPEN}K{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 K} files: managing}}{\f2  }{\cs15\fs16\up6 $
+{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 $} File Open command}}{\f2  }{\b\f2 Open Story command (File menu)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Use this command to open a }{\f2\ul story file}{\v\f2 story_file}{\f2  from disk. WinFrotz will prompt you for confirmation if you already have a story loaded and choose to play a different one.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Opening a story is accomplished using the standard Windows }{\f2\uldb File Open dialog}{\v AFX_HIDD_FILEOPEN}
+\par \pard \sl240\slmult0\widctlpar {\f2 
+\par }{\b\f2 Shortcuts
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Toolbar:\tab \{bmc fileopen.bmp\}
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} AFX_HIDD_FILEOPEN}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} aliases}${\footnote \pard\plain 
+\s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} File Open Dialog}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} recording}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} File Open Dialog}} {\b\f2 File Open dialog box
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par The following options allow you to specify which file to open:
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 File Name
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Type or select the filename you want to open.  This box lists files with the extension you select in the List Files of Type box. 
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 List Files of Type
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Select the type of file you want to open:
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 .dat,.z3,.z5,.zip (etc.)\tab }{\f2\ul Story files}{\v\f2 story_file}{\f2 
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 (}{\b\f2 Do not confused Z-Machine .zip files with compressed .zip files}{\f2 . Infocom was using this extension long before PkWare invented ZIP - WinFrotz }{\b\i\f2 cannot}{\f2  load compressed files).
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 .sav\tab \tab Saved game file
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 .frc \tab \tab \tab }{\f2\ul Alias list}{\v\f2\ul alias_file}{\f2 
+\par .rec\tab \tab \tab }{\f2\ul Recording file}{\v\f2\ul recording_file}{\f2 
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 Drives
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Select the drive in which WinFrotz stores the file that you want to open. 
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 Directories
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Select the directory in which WinFrotz stores the file that you want to open.
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 Network...
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Choose this button to connect to a network location, assigning it a new drive letter. 
+\par }\pard \sl240\slmult0\widctlpar \page {\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_FILE_SAVE}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_FILE_SAVE_GAME}#{\footnote \pard\plain 
+\s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_FILE_SAVE_ALIAS}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_FILE_SAVE_REC}} {\cs15\fs16\up6 K{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 K} files: managing}}{\f2  }{
+\cs15\fs16\up6 ${\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 $} File Save command}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} transcript}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Saving}K
+{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} aliases}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Saving}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} recording}${\footnote \pard\plain 
+\s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Saving}}{\f2  }{\b\f2 Save command (File menu)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Use this command to save data from your session, such as a }{\f2\ul saved game}{\v\f2 saved_game}{\f2 , }{\f2\ul alias list}{\v\f2 alias_file}{\f2 , }{\f2\ul recording}{\v\f2 recording_file}{\f2 , or }{\f2\ul 
+transcript}{\v\f2 transcript_file}{\f2 . In each case WinFrotz will provide you with a standard dialog box and a suggested file name.  While you can change the base file name to anything you like, it\rquote 
+s recommended that you leave the extension as is so finding the file will be easier when you want to load it.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2\ul Recording files}{\v\f2 recording_file}{\f2  are something of a special case.  To correctly save a recording file you will need to use the File/Save/Recording menu }{\b\f2 twice}{\f2 
+, once to start the recording and once to stop it.  Otherwise WinFrotz wouldn\rquote t be able to tell exactly how much you want to record.  There is also a hot-key for recording: Alt-R.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }{\b\f2 Shortcuts
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Toolbar:\tab \{bmc filesave.bmp\}
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 (The toolbar shortcut will automatically select }{\f11 Save->Game}{\f2  only, for others you need to use the menu option)
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar \page {\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} open_file}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_FILE_GAME}#{\footnote \pard\plain \s16\nowidctlpar 
+\fs20 {\cs15\fs16\up6 #} HID_FILE_ALIAS}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_FILE_REC}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} aliases}${\footnote \pard\plain \s16\nowidctlpar \fs20 {
+\cs15\fs16\up6 $} Loading}} {\b\f2 Open command (File menu)}
+\par \pard \sl240\slmult0\widctlpar 
+\par \pard \sl240\slmult0\widctlpar {\f2 Use this command to open data files other than the stories themselves, such as a previously }{\f2\ul saved game}{\v\f2 saved_game}{\f2 , }{\f2\ul alias list}{\v\f2 alias_file}{\f2  for your current story file, or a }{
+\f2\ul recording}{\v\f2 recording_file}{\f2  of actions from this story.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 If you have an alias file in the original directory containi
+ng the story, and it is named with the same base name as the story itself, it will be loaded automatically when the story is loaded. So if your story file was ZORK1.DAT and there was an alias file of ZORK1.FRC in the same directory, there is no need to lo
+ad it (it was loaded when ZORK1.DAT was). This does }{\b\f2 not}{\f2  apply to recording or saved games.}
+\par \pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Opening operations are accomplished using the standard Windows }{\f2\uldb File Open dialog}{\v AFX_HIDD_FILEOPEN}
+\par {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} saved_game}}{\f2  }{\b\f2 Saved game (.sav extension)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Saved games will save your position 
+in the story (including any inventory items, etc.).  Later you can reload the saved game file (with the appropriate story file already loaded) and WinFrotz will pick up in the exact spot you left off with the save.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\b\f2 Save early and save often}{\f2 .  Saved game files are small and it is possible in many games (particularly the old }{\f2\ul Infocom}{\v\f2\ul Infocom}{\f2 
+ ones) to get into no-win situations without being aware of it at the time.
+\par \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} story_file}}{\f2  }{\b\f2 Story File (.dat, .z? extension)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Story files are the data that WinFrotz works with. They are often thought of as \lquote adventures\rquote  because that was used to describe all of the early }{\f2\ul Infocom}{\v\f2\ul Infocom}{\f2 
+ products; however there have since been many story files that are not adventures in the classic sense.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 An example of a story file might be Planetfall (one of the Infocom adventures) or Curses, a much more recent work of interactive fiction. 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\b\f2 Note}{\f2 : Do not confused Z-Machine .zip files with compressed .zip files. Infocom was using this extension long before PkWare invented ZIP - WinFrotz }{\b\i\f2 cannot}{\f2  load compressed files).
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} recording_file}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} recording}${\footnote \pard\plain 
+\s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} File Description}}{\f2  }{\b\f2 Recording File (.rec extension)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 A recording file keeps a list of the commands that you type in to WinFrotz, so you can read them in later and play them back in the exact sequence you typed them in the first time.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Recording files are occasionally useful over saved games because they will display all of the story text from one point to the next; whereas a saved game simply puts you at the spot where it was saved.\page }{
+\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} transcript_file}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} transcript}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Description}}{
+\f2  }{\b\f2 Transcript}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 A transcript is a recording of the text to appear in window 0 (the m
+ain text window) for the time you have been playing.  WinFrotz maintains a cumulative transcript of everything that has occured for the current story file, but the scrollback buffer only displays about 32K of that.  Saving the transcript allows you to vie
+w the entire contents.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} alias_file}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} aliases}${\footnote \pard\plain \s16\nowidctlpar 
+\fs20 {\cs15\fs16\up6 $} File Description}}{\f2  }{\b\f2 Alias File (.frc extension)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Alias files keep a record of abbreviations of your choosing for commonly typed commands in a game. For instance, instead of typing in }{\f11 the robot form in slot one}{\f2  repeatedly you might decide to abbreviate
+ it }{\f11 rbf}{\f2 .  An alias file will permanently record that abbreviation so it is available for you next time you run that story file.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Take care in picking aliases; remember many objects can be referred to by shortened versions of their own name.  Abbreviating }{\f11 sailor}{\f2  as }{\f11 sai}{\f2  and having the game confuse that for the word }{
+\f11 sail}{\f2  for instance.}
+\par \pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} AFX_HIDD_FILESAVE}}{\b\f2 File Save As dialog box
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par The following options allow you to specify the name and location of the file you're about to save:
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 File Name
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Type a new filename to save a document wi
+th a different name.  A filename can contain up to eight characters and an extension of up to three characters.  WinFrotz adds the extension you specify in the Save File As Type box.
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 Drives
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Select the drive in which you want to store the document.
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 Directories
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Select the directory in which you want to store the document.
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 Network...
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Choose this button to connect to a network location, assigning it a new drive letter. 
+\par 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 #} HID_FILE_MRU_FILE1}}{\f2  }{\cs15\fs16\up6 K{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 K} files: managing}}{\f2  }
+{\cs15\fs16\up6 ${\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 $} File 1, 2, 3, 4 command}}{\f2  }{\b\f2 1, 2, 3, 4 command (File menu)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Use the numbers and filenames listed at the bottom of the File menu to open the last four documents you closed.  Choose the number that corresponds with the document you want to open.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_APP_EXIT}K{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 K} exit}}{\f2  }{\cs15\fs16\up6 ${\footnote 
+\pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 $} File Exit command}}{\f2  }{\b\f2 Exit command (File menu)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Use this command to end your WinFrotz session.  You can also use the Close command on the application Control menu.  WinFrotz prompts you to save documents with unsaved changes when you select File/Exit but }{\b\f2 not
+}{\f2  when you use Alt+F4 or the application Control menu.
+\par }\pard \sl240\slmult0\widctlpar 
+\par {\b\f2 Shortcuts
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Mouse:\tab Double-click the application's Control menu button.
+\par \tab \{bmc appexit.bmp\}
+\par }\pard \sl240\slmult0\widctlpar {\f2 Keys:\tab ALT+F4\page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_EDIT_UNDO}}{\f2  }{\b\f2 Undo/Can't Undo command (Edit menu)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Undo will take back your last edit action on the input line. This is different from the WinFrotz }{\i\f2 game}{\f2 
+ undo, which takes back your last game action. That option is accessed with Alt-U or from Options Undo..
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }{\b\f2 Shortcuts
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Toolbar:\tab \{bmc editundo.bmp\}
+\par Keys:\tab CTRL+Z or
+\par \tab ALT-BACKSPACE\tab 
+\par }\pard \sl240\slmult0\widctlpar\tx1440 {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_EDIT_REDO}}{\b\f2 Redo command (Edit menu)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par WinFrotz does not support Redo
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_EDIT_CUT}}{\b\f2 Cut command (Edit menu)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 WinFrotz does not yet support the cut command in the main window.  To copy text, use the Scrollback buffer (Ctrl-L), highlight the text, and Ctrl-C to copy it.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }{\b\f2 Shortcuts
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Toolbar:\tab \{bmc editcut.bmp\}
+\par Keys:\tab CTRL+X
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_EDIT_COPY}}{\b\f2 Copy command (Edit menu)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 WinFrotz does not yet support the copy command in the main window.  To cut text, use the Scrollback buffer (Ctrl-L), highlight the text, and Ctrl-C to copy it..
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }{\b\f2 Shortcuts
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Toolbar:\tab \{bmc editcopy.bmp\}
+\par Keys:\tab CTRL+C
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_EDIT_PASTE}}{\b\f2 Paste command (Edit menu)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par Pastes text from the clipboard into the current input line.
+\par 
+\par }{\b\f2 Shortcuts
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Toolbar:\tab \{bmc editpast.bmp\}
+\par Keys:\tab CTRL+V
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_VIEW_TOOLBAR}K{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 K} toolbar}}{\f2  }{\cs15\fs16\up6 $
+{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 $} View Toolbar command}}{\f2  }{\b\f2 Toolbar command (View menu)}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Use this command to display and hide the Toolbar, which includes buttons for some of the most common commands in WinFrotz, such as File Open.  A check mark appears next to the menu item when the Toolbar is displayed.
+
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 See }{\f2\uldb Toolbar}{\v\f2 AFX_HIDW_TOOLBAR}{\f2  for help on using the toolbar.
+\par \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} AFX_HIDW_TOOLBAR}K{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 K} toolbar}}{\f2  }{\cs15\fs16\up6 ${\footnote \pard\plain \s16\widctlpar \fs20 
+{\cs15\fs16\up6 $} toolbar}}{\f2  }{\b\f2 Toolbar}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \{bml hlptbar.bmp\}
+\par 
+\par }\pard \sl240\slmult0\widctlpar {\f2 The toolbar is displayed across the top of the application window, below the menu bar.  The toolbar provides quick mouse access to many tools used in WinFrotz,
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par To hide or display the Toolbar, choose Toolbar from the View menu (ALT, V, T).
+\par 
+\par }\pard \sl240\slmult0\widctlpar\brdrb\brdrs\brdrw15\brsp20 \tx1080 {\b\f2 Click\tab To}{\f2 
+\par }\pard \fi-1080\li1080\sl240\slmult0\widctlpar\tx1080 {\f2 \{bmc filenew.bmp\}\tab Open a new document.
+\par 
+\par }\pard \fi-1080\li1080\sl240\slmult0\widctlpar\tx1080 {\f2 \{bmc fileopen.bmp\}\tab Open an existing document.  WinFrotz displays the Open dialog box, in which you can locate and open the desired file.
+\par }\pard \fi-1080\li1080\sl240\slmult0\widctlpar\tx1080 {\f2 
+\par }\pard \fi-1080\li1080\sl240\slmult0\widctlpar\tx1080 {\f2 \{bmc filesave.bmp\}\tab Save the active document or template with its current name.  If you have not named the document, WinFrotz displays the Save As dialog box.
+\par }\pard \fi-1080\li1080\sl240\slmult0\widctlpar\tx1080 {\f2 
+\par \{bmc fileprnt.bmp\}\tab Print the active document.
+\par 
+\par \{bmc editcut.bmp\}\tab Remove selected data from the document and stores it on the clipboard.
+\par 
+\par \{bmc editcopy.bmp\}\tab Copy the selection to the clipboard.
+\par 
+\par \{bmc editpast.bmp\}\tab Insert the contents of the clipboard at the insertion point.
+\par 
+\par \{bmc editundo.bmp\}\tab Reverse the last editing.  Note:  You cannot undo some actions.
+\par 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_VIEW_STATUS_BAR}K{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 K} status bar}}{\f2  }{\cs15\fs16\up6 $
+{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 $} View Status Bar Command}}{\b\f2 Status Bar command (View menu)
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Use this command to display and hide the Status Bar.  Typically you should leave this on, as it displays valuable data such as the action to be selected by the current menu item, dimensions of your screen, and vario
+us keyboard states.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 See }{\f2\uldb Status Bar}{\v\f2 AFX_HIDW_STATUS_BAR}{\f2  for help on using the status bar.
+\par \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} AFX_HIDW_STATUS_BAR}K{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 K} status bar}}{\f2  }{\cs15\fs16\up6 ${\footnote \pard\plain \sl240\slmult0
+\widctlpar \fs20 {\cs15\fs16\up6 $} status bar}}{\b\f2 Status Bar}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \{bml hlpsbar.bmp\}
+\par 
+\par }\pard \sl240\slmult0\widctlpar {\f2 The status bar is displayed at the bottom of the WinFrotz window.  To display or hide the status bar, use the Status Bar command in the View menu.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+The left area of the status bar describes actions of menu items as you use the arrow keys to navigate through menus.  This area similarly shows messages that describe the actions of toolbar buttons as you depress them, before releasing them
+.  If after viewing the description of the toolbar button command you wish not to execute the command, then release the mouse button while the pointer is off the toolbar button.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par The right areas of the status bar indicate which of the following keys are latched down:
+\par 
+\par }\pard \sl240\slmult0\widctlpar\tx1440 {\b\f2 Indicator\tab Description}{\f2 
+\par }\pard \fi-1440\li1440\sa120\widctlpar\tx1440 {\f2 ??x??\tab Character dimensions of the screen
+\par UNLOCK or LOCK\tab Shows whether the screen is locked to prevent resizing.
+\par INS or OVR\tab Text insertion mode is selected, or overstrike mode is selected
+\par }\pard \fi-1440\li1440\sa120\sl240\slmult0\widctlpar\tx1440 {\f2 CAP\tab The Caps Lock key is latched down.
+\par NUM\tab The Num Lock key is latched down.
+\par SCRL\tab The Scroll Lock key is latched down.
+\par ??:?? ??\tab The current time (real, not from the game) in AM/PM mode.
+\par }\pard \sa120\sl240\slmult0\widctlpar\tx1440 {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} font_choices}}{\f2  }{\b\f2 Font Choices (View Menu)}{\f2 
+\par }\pard \sa120\sl240\slmult0\widctlpar\tx1440 {\f2 
+\par }\pard \sa120\sl240\slmult0\widctlpar\tx1440 {\f2 From the }{\f11 Fonts}{\f2  item on the View menu, you can choose either your }{\f2\uldb Display Font}{\v\f2 display_font}{\f2  or your }{\f2\uldb Status Font}{\v\f2 status_font}{\f2 .
+\par \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} display_font}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_VIEW_FONT}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} fonts}$
+{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Display Font}}{\f2  }{\b\f2 Display Font( View Menu; Fonts)}{\f2 
+\par }\pard \sa120\sl240\slmult0\widctlpar\tx1440 {\f2 
+\par }\pard \sa120\sl240\slmult0\widctlpar\tx1440 {\f2 The display font is the font uses for the primary display text (in }{\f2\ul Z-Machine}{\v\f2 Z_Machine}{\f2  code this is window 0).  For most works of interactive fiction the screen is typical
+ly split into two areas; with the primary display (window 0) being most of the lower portion of the screen and the status area (window 1 or 7) occupying the upper portion.  The display font will change the font that is displayed in the lower portion of th
+e window.
+\par }\pard \sa120\sl240\slmult0\widctlpar\tx1440 {\f2 
+\par }\pard \sa120\sl240\slmult0\widctlpar\tx1440 {\f2 WinFrotz won\rquote t allow you to change the display font within a game unless you are currently inputting a line of text; you can\rquote t change the font at a }{\f11 MORE}{\f2 
+ prompt for instance or while the screen is printing.  You can always change the font if there is no story loaded.  If you change the font while a game is playing, it will affect all text printing in window 0 }{\b\f2 from that point onward}{\f2 
+, not the text that is already on the screen.  However if you have some text on the input line at the time you change the font, that will be reprinted with the newer font, which can work well to test the appearance of the new font you\rquote ve selected.
+
+\par }\pard \sa120\sl240\slmult0\widctlpar\tx1440 {\f2 
+\par }\pard \sa120\sl240\slmult0\widctlpar\tx1440 {\f2 Note that while the screen format described above holds as a general rule it is not applicable to all games; there is no speci
+fic requirement that the bottom part of the screen be window 0 or even that window 0 be displayed at all.  If you are running a story file that only runs window 1 for example, changing the display font won\rquote t produce any visible results.
+\par }\pard \sa120\widctlpar\tx1440 {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} status_font}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_VIEW_STATUS_FONT}K{\footnote \pard\plain 
+\s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} fonts}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Status font}}{\f2  }{\b\f2 Status Font (View Menu; Fonts)}{\f2 
+\par }\pard \sa120\widctlpar\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx1440 {\f2 The status font is the font generally used for a status area at the top of the screen common to most story files.  There are special restrictions to the status font:
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 \tab * The status font must be fixed-pitch; WinFrotz will enforce this by only allowing you to choose fonts of the appropriate type.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 \tab 
+* A status font cannot be selected that is too large for the current display; that is, if the status area were re-printed with the selected font and the result was wider than the total width of the Windows desktop, WinFrotz will complain and ask you to r
+e-select the font.  If the resulting display would fit on the desktop, WinFrotz will resize your screen to new required size.  This is required because almost no games work correctly when the status 
+area is resized after a game is started; it must remain the same size (in character dimensions) as it was when the story was first run.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 \tab 
+* Some version 4 and 5 Z-Machine games may produce errors if you change the status font on the fly, epecially if you choose nonsensical values (very large or very small fonts). WinFrotz attempts to prevent you from making any bad mistakes here - but if t
+hings go wrong after you change the status font, save your game, change it back to the size it was before, and restart.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 Having different sized status and display fonts was never really a feature the }{\f2\ul Z-Machine}{\v\f2 Z_Machine}{\f2 
+ was designed to support.  The most compatible way to run WinFrotz (and the settings that most closely resemble the platforms the Z-Machine was developed on) is to run the same fixed pitch font for the status and display areas.  However there are only a f
+ew cases where doing otherwise causes problems, and they are generally outweighed by the much more readable output when larger, variable pitch fonts are used.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+There are several games that will use the status font in the regular display area - the status font is really the Z-Machine fixed font.  WinFrotz supports this with no problem.  Generally it is desirable to have a status font that is smaller than the disp
+lay font.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 Do not confuse the Z-Machine status area, generally at the top of the WinFrotz display but not required (and so not present in some story files) with the }{\b\f2 status bar}{\f2 
+ that is maintained by Windows at the }{\i\f2 bottom}{\f2  of the screen.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HIDD_DIALOG_DISPLAY}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_VIEW_DISPLAY_OPT}K{\footnote 
+\pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} display options}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Display Options Dialog}}{\f2  }{\b\f2 Display Options (View menu)}{\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 This dialog box controls various aspects of the WinFrotz display.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\b\f2 Show Emphasis/Bold as:}{\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 The left hand categories, }{\f11 Show Emphasis as:}{\f2  and }{\f11 Show Bold as:}{\f2 
+ control what WinFrotz will do when asked to print either Emphasis or Bold fonts by the story file.  You can choose to print these fonts as their specific font style (Emphasis or Bold), print them like normal text but with a special color (selected from C
+olors menu), or to show no special effect at all.  In addition for Emphasis you can tell WinFrotz to display it as underline, as this was an option on some Z-Machine interpreters in the past.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\b\f2 
+\par Display Mode:}{\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 Selecting the Color options above or selecting }{\f11 Use full color}{\f2  in the right hand }{\f11 Display Mode}{\f2 
+ area will result in WinFrotz prompting you to make sure you wish to make that change.  Full color mode allows a whole variety of color options but slows WinFrotz down considerably.  How much the program is slowed down will depend on the color resolution 
+of your Windows desktop; truecolor being the slowest.
+  This should be an issue only on the slowest of machines capable of running Win95 or NT. In general however much slower it is in color mode, WinFrotz will still print and react faster than you can read or type.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+Full color mode will look better for those with Plus! Installed or WinNT 4.X users, because the printed fonts can be automatically anti-aliased if you have selected smooth font display from the Windows control panel.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\b\f2 
+\par Updates:}{\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 Updates is a setting that applies to both full color and dual color modes; it controls how often WinFrotz chooses to refresh the display as it is printing.  With }{\f11 Very Frequent}{\f2 
+ selected, WinFrotz will update on any change and make sure the screen scrolls smoothly.  This mode can be slow in full color mode if your Windows desktop is in 16/24/32 color depth.  With }{\f11 Frequent}{\f2 
+ selected, WinFrotz will continuously update the display for each line printed or area erased.  With }{\f11 Infrequent}{\f2  selected WinFrotz will update the display only when it is ready for you to read it (at a MORE prompt
+ for instance).  Infrequent mode is faster, but can actually }{\b\f2 appear}{\f2  slower due to the jerkier nature of the display.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 It\rquote s often best to play graphical games in Infrequent mode; that way you don\rquote 
+t watch all of the graphics being updated.  However for text games many people prefer frequent or very frequent. If you find that sometimes the screen appears to not be updated c
+orrectly, choose Very Frequent mode and try the same thing again. There is at least one card that exhibits this behavior under Win NT.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\b\f2 
+\par Lock Window Size:
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 Use this option when you are happy with your screen option and don\rquote t want to accidentally resize it.  It will basically prevent you from changing the screen size as long as long as it is checked.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 Please note that selecting }{\f11 Lock Window Size}{\f2 
+ and then resizing fonts, especially the status font, can cause some games to corrupt their displays.  This is because WinFrotz will no longer be able to compensate for different font sizes by changing the size of the display itself.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} {\f11\fs18\cf1 HIDD_GRAPHICS}}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} graphics}${\footnote 
+\pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Graphics Options Dialog}} {\b\f2 Graphics Options}{\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 This dialog box controls how WinFrotz handles }{\f2\ul V6}{\v\f2 version_6}{\f2  (graphics) story files.  It is broken into three sections:
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\b\f2 Emulate}{\f2 :
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+This box will let you select which PC graphics mode WinFrotz will emulate as it runs the story file.  CGA mode is a two color mode which will use your chosen foreground/background colors.  MCGA mode is a 16 color mode drawn from a large palette and is the
+ recommended choice unless the game you are running doesn\rquote t support that mode.  EGA mode is a 16-color mode with a very limited, fixed palette.  EGA mode typically looks worse than even CGA mode.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\b\f2 Screen Size:}{\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 When you run a }{\f2\ul V6}{\v\f2 version_6}{\f2  game, WinFrotz will automatically resize to one of the sizes specified in this box.  This will have no effect on your chosen screen size for other games; it
+\rquote s particular to V6 games only.  By picking a size here you are determining how far WinFrotz should scale the display - since most of the display modes were far to small or the wrong aspect ratio to display under Windows.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 V6 screen sizes are limite
+d to three choices: 640x400, 960x600, and 1280x800.  These work into convenient multiples of the base resolutions used for the original games. WinFrotz will always handle the aspect ratio differences and choice of how to scale on the X and Y axis itself, 
+but the Z-machine games sometimes do not deal with this well at all.  For maximum compatibility it is recommended that you use 640x400 mode (1280x800 will also work well, but it\rquote s pretty large).
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\b\f2 Font:
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 This font is separate from your choices for other types of games (the status and display fonts) and will be used only for V6 games.  It is }{\i\f2 only}{\f2 
+ font that will be available in your V6 games (although there will still be bold/underlined variants if you choose to display them that way).  WinFrotz will allow you to only pick a fixed-pitch font (required) and will tell you if the size isn\rquote 
+t likely to be compatible.  Many of the V6 games do not work well with particularly large or small fonts.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 Even with all the effort WinFrotz makes to correctly emulate the behavoir
+ of the Z-Machine in V6 games, be aware there are a few small quirks left. For instance, in Zork Zero small graphics are used as icons for the room the player has moved to; once in a while the bottom line of these icons will be clipped off the bottom of t
+he screen. This is because the font and screen size you are using is substantially different from the original game, and in a few places the original has hard-coded assumptions of the ratio of the font to the icon size. It can\rquote 
+t be helped in other words, although you can try a slightly different font size to see if it corrects the error.
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} version_6}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} graphics}${\footnote \pard\plain 
+\s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Version 6 games}} {\b\f2 Version 6 (graphics) games}{\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+\par }\pard \sa120\widctlpar\tx720\tx1440 {\f2 
+These games feature graphics displays during the course of the adventure. You must have the actual graphics files, which usually end with a .MG?, .EG?, or .CG? extension, signifying MCGA, EGA, or CGA graphics.  If you don\rquote 
+t have the graphics files for a game that is graphics compatible, check on ftp.gmd.de to see if there are some there (most of them are).  WinFrotz can play these games but t
+here are some caveats due to the substantial difference between the Windows graphics system and the original PC graphics modes; these are fully explained under the View/}{\f2\uldb Graphics}{\v\f11\fs18\cf1 HIDD_GRAPHICS}{\f2  help entry.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_HELP_INDEX}}{\b\f2 Index command (Help menu)
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Use this command to display the opening screen of Help.  From the opening screen, you can jump to step-by-step instructions for using WinFrotz and various types of reference information.  
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Once you open Help, you can click the Contents button whenever you want to return to the opening screen.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_HELP_USING}}{\b\f2 Using Help command (Help menu)
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par Use this command for instructions about using Help.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_APP_ABOUT}}{\b\f2 About command (Help menu)
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+Use this command to display the copyright notice and version number of your copy of WinFrotz.  There is also some system information displayed in this dialog box, including the relative speed with with WinFrotz is emulating the Z-Machine (this can be heav
+ily influenced by a variety of factors, so take the number with a grain of salt) and the number of Z-Code operations that have been executed so far in the current story file.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_CONTEXT_HELP}${\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 $} Help Using Help Command}}{
+\b\f2 Context Help command 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \{bml curhelp.bmp\}
+\par 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+Use the Context Help command to obtain help on some portion of WinFrotz.  When you choose the Toolbar's Context Help button, the mouse pointer will change to an arrow and question mark.  Then click somewhere in the WinFrotz window, such as another Toolbar
+ button.  The Help topic will be shown for the item you clicked.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }{\b\f2 Shortcut
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Keys:\tab SHIFT+F1
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_HT_CAPTION}}{\b\f2 Title Bar}
+\par \pard \sl240\slmult0\widctlpar 
+\par {\f2 \{bmc hlptitle.bmp\}
+\par 
+\par }\pard\plain \s42\fi-360\li360\widctlpar\tx360 \f7\fs20 {\f2 The title bar is located along the top of a window.  It contains the name of the application and document.
+\par }\pard\plain \widctlpar \fs20 {\f2 
+\par }\pard\plain \s42\fi-360\li360\widctlpar\tx360 \f7\fs20 {\f2 To move the window, drag the title bar.  Note: You can also move dialog boxes by dragging their title bars.
+\par }\pard\plain \widctlpar \fs20 {\f2 
+\par }\pard \fi-360\li360\widctlpar\tx360 {\f2 A title bar may contain the following elements:
+\par }\pard\plain \s41\fi-360\li360\sb40\sa40\widctlpar\tx360 \f7\fs20 {\f2 \{bmc bullet.bmp\}\tab Application Control-menu button
+\par \{bmc bullet.bmp\}\tab Document Control-menu button
+\par \{bmc bullet.bmp\}\tab Maximize button
+\par \{bmc bullet.bmp\}\tab Minimize button
+\par \{bmc bullet.bmp\}\tab Name of the application
+\par \{bmc bullet.bmp\}\tab Name of the document
+\par \{bmc bullet.bmp\}\tab Restore button
+\par }\pard\plain \sl240\slmult0\widctlpar \fs20 {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 #} scrollbars}}{\f2  }{\b\f2 Scroll bars}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par WinFrotz does not scroll the main display. It will however scroll in the scrollback mode (Ctrl-L).
+\par 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_SC_SIZE}}{\b\f2 Size command (System menu)}
+\par \pard \sl240\slmult0\widctlpar 
+\par \pard \sl240\slmult0\widctlpar {\f2 Use this command to display a four-headed arrow so you can size the active window with the arrow keys.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \{bml curarw4.bmp\}
+\par 
+\par After the pointer changes to the four-headed arrow:
+\par }\pard \fi-360\li360\sb60\sl240\slmult0\widctlpar {\f2 1.\tab Press one of the DIRECTION keys (left, right, up, or down arrow key) to move the pointer to the border you want to move.  
+\par }\pard \fi-360\li360\sb60\sl240\slmult0\widctlpar {\f2 2.\tab Press a DIRECTION key to move the border.
+\par 3.\tab Press ENTER when the window is the size you want.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par Note:  This command is unavailable if you maximize the window.
+\par }
+\par {\b\f2 Shortcut}{\b 
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Mouse:\tab Drag the size bars at the corners or edges of the window.
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_SC_MOVE}}{\b\f2 Move command (Control menu)
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Use this command to display a four-headed arrow so you can move the active window or dialog box with the arrow keys.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \{bmc curarw4.bmp\}
+\par 
+\par Note:  This command is unavailable if you maximize the window.
+\par 
+\par }{\b\f2 Shortcut
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Keys:\tab CTRL+F7
+\par 
+\par }\pard \sl240\slmult0\widctlpar\tx1440 {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_SC_MINIMIZE}${\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 $} System Minimize Command}
+}{\b\f2 Minimize command (application Control menu)
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par Use this command to reduce the WinFrotz window to an icon.
+\par }\pard \fi-360\li360\sl240\slmult0\widctlpar {\b 
+\par }{\b\f2 Shortcut}{\f2 
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Mouse:\tab Click the minimize icon \{bmc scmin.bmp\} on the title bar.
+\par Keys:\tab ALT+F9
+\par }\pard \fi-360\li1080\sl240\slmult0\widctlpar 
+\par \pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_SC_MAXIMIZE}}{\b\f2 Maximize command (System menu)
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par Use this command to enlarge the active window to fill the available space.
+\par }\pard \fi-360\li360\sl240\slmult0\widctlpar {\b\f2 
+\par Shortcut}{\f2 
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Mouse:\tab Click the maximize icon \{bmc scmax.bmp\} on the title bar; or double-click the title bar.
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Keys:\tab CTRL+F10 enlarges a document window.
+\par }\pard \fi-360\li1080\sl240\slmult0\widctlpar 
+\par \pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_SC_NEXTWINDOW}}{\b\f2 Next Window command (document Control menu)
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Use this command to switch to the next open document window.  WinFrotz determines which window is next according to the order in which you opened the windows.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }{\b\f2 Shortcut
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Keys:\tab CTRL+F6
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_SC_PREVWINDOW}}{\b\f2 Previous Window command (document Control menu)
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Use this command to switch to the previous open document window.  WinFrotz determines which window is previous according to the order in which you opened the windows.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }{\b\f2 Shortcut
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Keys:\tab SHIFT+CTRL+F6
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_SC_CLOSE}}{\b\f2 Close command (Control menus)
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par Use this command to close the active window or dialog box.
+\par 
+\par Double-clicking a Control-menu box is the same as choosing the Close command.
+\par \{bml appexit.bmp\}
+\par 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_SC_RESTORE}}{\b\f2 Restore command (Control menu)
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Use this command to return the active window to its size and position before you chose the Maximize or Minimize command.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_SC_TASKLIST}}{\b\f2 Switch to command (application Control menu)
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Use this command to display a list of all open applications.  Use this "Task List" to switch to or close an application on the list.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }{\b\f2 Shortcut
+\par }\pard \fi-1080\li1440\sl240\slmult0\widctlpar\tx1440 {\f2 Keys:\tab CTRL+ESC
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }{\b\f2 Dialog Box Options
+\par }\pard \sl240\slmult0\widctlpar {\f2 When you choose the Switch To command, you will be presented with a dialog box with the following options:
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 Task List
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Select the application you want to switch to or close.
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 Switch To
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Makes the selected application active.
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 End Task
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Closes the selected application.
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 Cancel
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Closes the Task List box.
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 Cascade
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Arranges open applications so they overlap and you can see each title bar.  This option does not affect applications reduced to icons.
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 Tile
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Arranges open applications into windows that do not overlap.  This option does not affect applications reduced to icons.
+\par }\pard \sb60\sl240\slmult0\widctlpar {\b\f2 Arrange Icons
+\par }\pard \li360\sl240\slmult0\widctlpar {\f2 Arranges the icons of all minimized applications across the bottom of the screen.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} AFX_HIDD_FONT}${\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 $} Choose Font Dialog}K{\footnote 
+\pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} fonts}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Choose Font Dialog}} {\b\f2 Choose Font dialog box
+\par }\pard \sl240\slmult0\widctlpar {\b\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+WinFrotz will always initialize the font dialog box with the currently selected font for the type you want to change, and limit your choices to only valid ones.  You can use the font dialog to preview what the font will look like when it is displayed.  Re
+member there at times when the font selection will not immediately result in a change in your display, however text printed from that point onward in the font you were changing should reflect the change.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} AFX_HIDD_COLOR}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_COLORS_USERFG}#{\footnote 
+\pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_COLORS_USERBG}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_COLORS_USERINVFG}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_COLORS_USERINVBG}#
+{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_COLORS_EMPHASIS}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_COLORS_BOLD}} {\cs15\fs16\up6 ${\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {
+\cs15\fs16\up6 $} Choose Color Dialog}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} colors}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Choose Color Dialog}} {\b\f2 Choose Color dialog box
+\par }\pard \sl240\slmult0\widctlpar {\b\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+WinFrotz will allow you to select any color for any item in the Colors menu.  There are certain combinations of colors that could result in difficult or impossible to read displays; if you find the display not making sense after you changed a color, you s
+hould probably select a different choice for that color.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 The bottom of the choose color dialog box is filled with the custom color palette of WinFrotz.  This is saved and reloaded every time you run WinFrotz; so if you tend
+ to switch between certain colors it makes it easier if you store them here.  The first six colors in this list are reserved by WinFrotz itself and represent the foreground, background, inverse foreground, inverse background, bold and emphasis colors resp
+ectively.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \sl240\slmult0\widctlpar \fs20 {\cs15\fs16\up6 #} HID_HT_NOWHERE}}{\b\f2 No Help Available}
+\par \pard \sl240\slmult0\widctlpar 
+\par {\f2 No help is available for this area of the window.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\widctlpar \fs20 {\cs15\fs16\up6 #} AFX_HIDP_default}}{\f2  }{\b\f2 No Help Available
+\par }\pard \sl240\slmult0\widctlpar 
+\par {\f2 No help is available for this message box.
+\par }
+\par \pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} compatibility}}{\f2  }{\b\f2 Compatibility
+\par }\pard \sl240\slmult0\widctlpar {\b\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 It is the goal of the author to make WinFrotz fully Z-Machine compliant; that is, make it able to run all versions of Z-Machine code.  As of this writing WinFrotz can run }{\b\f2 all}{\f2 
+ Infocom games, including Beyond Zork with it\rquote s special font, and is (as near as I can tell from testing) fully compliant with the Z-machine specification V1.0.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+In general WinFrotz does well with all the all games; but there are specific circumstances that can confuse certain stories because WinFrotz features capabilities the original Z-Machine designers never planned for (like dynamic resizing of the display are
+a).  If you are having problems with a particular story, first try selecting an identical fixed pitch font for }{\b\f2 both}{\f2 
+ the status and display fonts, then resize your screen to 80x25 characters and restart the story.  If you still have problems, e-mail rich@kesmai.com with specifics so I can find out what is causing it.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 For Beyond Zork, there is a specific caveat with this release - when running this game, your status (or fixed-width) font must be the same size as an available version of the Beyond Zork graphical font. Cur
+rently that is 8,10,12, or 15 points. So before you load Beyond Zork change your status font to a fixed font of one of these sizes - preferably Courier (}{\b\f2 not}{\f2 
+ Courier New).  If you find the Beyond Zork display still a little corrupted, try some different fonts of that size.  I\rquote m trying to get a TrueType version of the Beyond Zork font to fix this point.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} Infocom}}{\f2  }{\b\f2 Infocom
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Infocom is the now defunct company that designed the original }{\f2\ul Z-Machine}{\v\f2 Z_Machine}{\f2  concept and wrote the original set of adventure games that became
+ the backbone of the interactive fiction genre (there were plenty of other game companies that produced adventures, but Infocom is generally acknowledged as having the best talent and being the all-around pioneer of the field).
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+Many people (the author of WinFrotz included) believe that the work done for many of the original, straight text Infocom adventures is some of the best writing ever done for computer game media.  Since the designers were not able to depend on eye catching
+ graphics or surround sound, 3D or any of the techno gadgets found in games today, they concentrated solely on a solid game and writing that was the principle feature, rather than a secondary one, to the story.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Although Infocom no longer exists, the name and game rights to their products are owned by Activision.  Activision has repackaged the original Infocom games in a single CD called }{\i\f2 The Masterpieces of Infocom}{
+\f2  which can be purchased for under $20 US dollars.  As there are over 30 games on it, and all are in a format ready to use with WinFrotz, it\rquote 
+s a good companion to WinFrotz.  More information is available from the Activision website at www.activision.com (I do not work for, nor am compensated in any way, by Activision for this product. They were kind enough to select it as a d
+istribution method for a promotional Zork game, but it is not their product!. Please do }{\b\f2 not}{\f2  call Activision with a WinFrotz problem!).
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} get_games}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} starting}${\footnote \pard\plain \s16\nowidctlpar 
+\fs20 {\cs15\fs16\up6 $} Obtaining Story Files}}{\f2  }{\b\f2 Obtaining Story Files}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 There are several different ways you can obtain story files to play with WinFrotz.  If you own any of the }{\f2\uldb Infocom}{\v\f2\ul Infocom}{\f2 
+ adventures, even if they are old, if you can find a way to transfer files from those old disks to your Win95 or NT machine you are probably in luck.  Just look for a file that ends in .DAT, as that is generally the naming convention used by Infocom (it w
+ill also usually be the largest file on the disk).  Sometimes for older platforms the story data and executable were merged into one file; for these you may have to look for a utility that splits the files up (read on).
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 If you want all of the Infocom adventures in a single easy to use place you can obtain the Masterpieces of Infocom disk from Activision (just follow the help link to }{\f2\uldb Infocom}{\v\f2\ul Infocom}{\f2 
+ to find out about it).
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 There are also free story files available.  The most complete location for these is the ftp site }{\b\f2 ftp.gmd.de}{\f2 
+ which contains just about every piece of interactive fiction written that is publicly available.  Look in the directory /if-archive/games and search around; generally anything that ends with a .dat or .z?? extension is useable (there }{\i\f2 are}{\f2 
+ story files that cannot be read by WinFrotz because there are other data formats besides the Z-Machine that WinFrotz does not understand).
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par You can also check the WinFrotz home page at:
+\par 
+\par http://www.cris.com/~Twist/WinFrotz
+\par 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Where I intend to keep reasonably up to date links and info on getting games and the latest version of WinFrotz itself.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} edit_keys}}{\f2  }{\b\f2 Editing Keys
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Not surprisingly most of the work in WinFrotz is done from a text editing line (most interactive story files being text b
+ased).  WinFrotz supports a variety of editing and hot-keys from past versions and also familiar to regular Windows users:
+\par }\pard \fi720\nowidctlpar {\f2 
+\par }\pard \nowidctlpar {\f11\fs18\cf1     Alt-A             - alias menu (also Options/Alias)
+\par     Alt-D             - debugging menu (Options/Debugging)
+\par     Alt-N             - new game (restart) (File/Restart)
+\par     Alt-P             - turn on input line playback (File/Open/Recording)
+\par     Alt-R             - input line recording on/off (File/Save/Recording)
+\par     Alt-S             - set the random seed
+\par     Alt-U             - multiple UNDO (even for old V1 to V4 games)
+\par     Alt-X             - exit game (quit)
+\par 
+\par     Ctrl-A      home              - move to beginning of line
+\par     Alt-B       ctrl-cursor left  - move to previous word
+\par                 ctrl-cursor right - move to next word
+\par     Ctrl-B  or  cursor left       - move one character to the left
+\par     Ctrl-D      delete            - delete character below cursor
+\par                 ctrl-delete       - delete word below cursor
+\par                 insert            - toggle overwrite mode on/off
+\par     Ctrl-E      end               - move to end of line
+\par     Ctrl-F      cursor right      - move one character to the right
+\par     Ctrl-H      backspace         - delete character to the left
+\par                 ctrl-backspace    - delete word to the left
+\par     Ctrl-L      scrollback        - view scrollback buffer
+\par     Ctrl-N      cursor down       - get next command
+\par     Ctrl-P      cursor up         - get previous command
+\par     Ctrl-T                        - transpose characters
+\par     Ctrl-U      escape            - delete whole input line
+\par }\pard \fi720\sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} {\f11\fs18\cf1 HIDD_ALIAS_LIST}}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_OPTIONS_ALIAS}}{\f2  }{
+\b\f2 Alias Menu
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 WinFrotz allows the creation of }{\f2\ul alias files}{\v\f2 alias_file}{\f2 
+ to make repetitive statements easier to type.  The Aliases... menu item brings up a dialog box that allows you to edit these aliases or abbreviations.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par The dialog box will display a list of the current aliases in the form:
+\par 
+\par text\tab ->\tab replacement
+\par 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Where }{\i\f2 text}{\f2  is what you would type in and }{\i\f2 replacement}{\f2  is what WinFrotz would replace that with.  The dialog box allows you to highlight an alias and delete it, create
+ a new alias, delete all aliases, and enable or disable aliases (if you disable aliases, your list will be kept, it simply won\rquote t be used until you re-enable them).
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HIDD_ADD_ALIAS}}{\f2  }{\b\f2 Alias Menu
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+This dialog box will allow you to enter an alias or abbreviation for a section of text. In the first entry box, you type the text you wish to use as an abbreviation, in the second, the text it will be replaced with. So you might type }{\i\f2 foo}{\f2 
+ in the first entry box and }{\i\f2 the big foo bar}{\f2  in the second. After that whenever you type }{\i\f2 foo}{\f2  on a line of text entry, it would be replaced with }{\i\f2 the big foo bar}{\f2 . Alias entries are not recursive.
+\par }\pard \sl240\slmult0\widctlpar \page {\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HIDD_DEBUGGING}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_OPTIONS_DEBUGGING}} {\b\f2 Debugging Menu}
+\par \pard \sl240\slmult0\widctlpar 
+\par \pard \sl240\slmult0\widctlpar {\f2 This dialog box allows you to turn on various debugging or cheat options for the Z-Machine WinFrotz is running. They are broken down as follows:
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Watch Attribute Assignment: Generates messages when the Z-Machine changes the characteristics/attributes of an object in the game
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par Watch Attribute Testing: As above, shows the testing of the attributes on an object.
+\par 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Watch Object Movement: Generates messages as the Z-Machine moves objects around (non player characters are thought of as objects so you can watch them move with this).
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par Watch Object Locating: Generates messages when objects are located
+\par 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Set Piracy Bit On: Turns the piracy bit on for the game, although no games are known to use this.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Set Tandy Bit On: Several Infocom games will behave slightly differently with the Tandy bit set, censoring some words for this family brand that was sold through Radio Shack.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 All options in this menu apply only to that session of use. They are not saved in the registry as this would lead to confusion and problems with overly verbose output.\page }{\cs15\fs16\up6 #{\footnote \pard\plain 
+\s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HIDD_SOUND}#{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_OPTIONS_SOUND}K{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} sound}${\footnote \pard\plain \s16\nowidctlpar 
+\fs20 {\cs15\fs16\up6 $} Sound Dialog}}{\f2  }{\b\f2 Sound Dialog}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+The sound dialog box simply allows you to specify whether WinFrotz will attempt to play sounds in those games that support it (Sherlock and Lurking Horror, currently).  You might select this off if you are having problems with sounds, or you don\rquote 
+t want to hear them.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 In addition you can adjust the volume with which sounds are played.  This volume is }{\b\f2 relative}{\f2 
+ to your current wave output volume specified in the Windows sound control panel.  If you have the slider all the way to the right, WinFrotz will play sounds at the maximum volume for wave output, not at the maximum volume your sound system is capable of 
+supporting.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+This dialog will also indicate whether the story file you are using has even attempted to load and play a sound yet. This can be a useful diagnostic if you are trying to determine whether the story file is sound-capable or not; not all versi
+ons of Lurking Horror or Sherlock even play sounds (complete documentation on how to modify them is at ftp.gmd.de). It may also just indicate that you haven\rquote t reached a point in the game where it tries to play a sound yet.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Sound settings are saved in the Registry so WinFrotz will remeber what volume you want, etc.\page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HIDD_SCROLLBACK}K{\footnote 
+\pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 K} transcript}${\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 $} Viewing}}{\f2  }{\b\f2 Scrollback Buffer}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 The scrollback buffer displays the last 32K or so of the }{\f2\ul transcript}{\v\f2 transcript_file}{\f2  that is recording while the story file is played.  You can use the scrollback to copy text 
+that you want to input; simply highlight the text using the mouse or arrow keys and use the standard windows Ctrl-C to copy it to the clipboard.  Once back to the WinFrotz entry line, use Ctrl-V to paste it in.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 The scrollback buffer is read only (you can\rquote 
+t insert text here) and possibly represents only part of the entire transcript; the most recent part.  To obtain a record of the entire transcript save it to disk using the File/Save/Transcript menu entry.
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_OPTIONS_AUTO_LOAD}}{\f2  }{\b\f2 Auto Load}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Using this allows you to mark a stor
+y file as the automatic default to load when WinFrotz is started.  This can come in handy when you are repeatedly playing the same story to completion; you just double click and it loads (you\rquote ll still have to load the appropriate save game).
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 In the dialog box you can either edit the file name shown directly, or browse for it Explorer-style by clicking the Browse button.  You can turn the feature off by clicking the \lquote Disable auto-load feature\rquote 
+ button.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 Entering an incorrect file name, or having a file name that later becomes invalid (deleted, etc) will not cause problems.  WinFrotz will just skip the load if it can\rquote t find the file
+\par }\pard \sl240\slmult0\widctlpar {\f2 \page }{\cs15\fs16\up6 #{\footnote \pard\plain \s16\nowidctlpar \fs20 {\cs15\fs16\up6 #} HID_OPTIONS_UNDO_GAME}}{\f2  }{\b\f2 Undo Last Turn}{\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+This allows you to take back your last action in the game (defined by the last time you hit return on a line) without consequences; it will be as if it never happened.  You can even multiple-undo to go back several steps.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par }\pard \sl240\slmult0\widctlpar {\f2 However there are a few things to keep in mind.  If you make a truly fatal mistake, and you die, you probably won\rquote t be given a chance to take it back - you\rquote 
+ll only be able to reload the game.  Also some Z-Machine games support this feature directly and may have their own ideas about what you can and cannot Undo.
+\par }\pard \sl240\slmult0\widctlpar {\f2 
+\par Undo is not a substitute for a saved game.  Follow the adventurer motto - save early, save often.}
+\par }

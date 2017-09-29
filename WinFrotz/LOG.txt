@@ -1,0 +1,203 @@
+Logfile(restart): LOG.txt
+CWinFrotzApp::CWinFrotzApp(68) [1] \winfrotz.cpp
+{
+}
+CWinFrotzApp::InitInstance(81) [1] \winfrotz.cpp
+{
+   HandleRegistry(243) [1] \ini.cpp
+   {
+      ReadRegDWORD(145) [1] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [2] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [3] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [4] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [5] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [6] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [7] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [8] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [9] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [10] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [11] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [12] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [13] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [14] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [15] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [16] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [17] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [18] \ini.cpp
+      {
+      }
+      CreateInitialFonts(38) [1] \ini.cpp
+      {
+      }
+   }
+   CWinFrotzDoc::CWinFrotzDoc(51) [1] \winfrotzdoc.cpp
+   {
+   }
+   CMainFrame::CMainFrame(150) [1] \mainfrm.cpp
+   {
+   }
+   CMainFrame::PreCreateWindow(275) [1] \mainfrm.cpp
+   {
+      ReadRegDWORD(145) [19] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [20] \ini.cpp
+      {
+      }
+   }
+   CMainFrame::PreCreateWindow(275) [2] \mainfrm.cpp
+   {
+      ReadRegDWORD(145) [21] \ini.cpp
+      {
+      }
+      ReadRegDWORD(145) [22] \ini.cpp
+      {
+      }
+   }
+   CMainFrame::OnGetMinMaxInfo(370) [1] \mainfrm.cpp
+   {
+   }
+   CMainFrame::OnCreate(225) [1] \mainfrm.cpp
+   {
+      CWinFrotzView::CWinFrotzView(119) [1] \winfrotzview.cpp
+      {
+      }
+      CWinFrotzView::OnCreate(130) [1] \winfrotzview.cpp
+      {
+      }
+      CWinFrotzView::OnSize(890) [1] \winfrotzview.cpp
+      {
+         resetScrollPos(312) [1]: c:\mike\frotz\winfrotz_vs10\winfrotz\c\win_scrn.c =====>
+         {
+         }
+         adjustScreenSize(1409) [1]: c:\mike\frotz\winfrotz_vs10\winfrotz\c\win_init.c =====>
+         {
+         }
+      }
+      CMainFrame::RecalcLayout(429) [1] \mainfrm.cpp
+      {
+         CMainFrame::UpdateStatusBar(437) [1] \mainfrm.cpp
+         {
+            CMainFrame::SetStatusPane(592) [1] \mainfrm.cpp
+            {
+            }
+         }
+         CWinFrotzView::OnSize(890) [2] \winfrotzview.cpp
+         {
+            resetScrollPos(312) [2]: c:\mike\frotz\winfrotz_vs10\winfrotz\c\win_scrn.c =====>
+            {
+            }
+            adjustScreenSize(1409) [2]: c:\mike\frotz\winfrotz_vs10\winfrotz\c\win_init.c =====>
+            {
+            }
+         }
+      }
+      CMainFrame::RecalcLayout(429) [2] \mainfrm.cpp
+      {
+         CMainFrame::UpdateStatusBar(437) [2] \mainfrm.cpp
+         {
+            CMainFrame::SetStatusPane(592) [2] \mainfrm.cpp
+            {
+            }
+         }
+      }
+      CMainFrame::InitStatusBar(489) [1] \mainfrm.cpp
+      {
+      }
+   }
+   CWinFrotzDoc::OnNewDocument(61) [1] \winfrotzdoc.cpp
+   {
+   }
+   CWinFrotzView::OnInitialUpdate(437) [1] \winfrotzview.cpp
+   {
+      ComputeFontWidths(1063) [1]: c:\mike\frotz\winfrotz_vs10\winfrotz\c\win_init.c =====>
+      {
+      }
+      adjustScreenSize(1409) [3]: c:\mike\frotz\winfrotz_vs10\winfrotz\c\win_init.c =====>
+      {
+      }
+   }
+   CWinFrotzView::OnSetFocus(407) [1] \winfrotzview.cpp
+   {
+   }
+   CMainFrame::RecalcLayout(429) [3] \mainfrm.cpp
+   {
+      CMainFrame::UpdateStatusBar(437) [3] \mainfrm.cpp
+      {
+         CMainFrame::SetStatusPane(592) [3] \mainfrm.cpp
+         {
+         }
+      }
+      CWinFrotzView::OnSize(890) [3] \winfrotzview.cpp
+      {
+         resetScrollPos(312) [3]: c:\mike\frotz\winfrotz_vs10\winfrotz\c\win_scrn.c =====>
+         {
+         }
+         adjustScreenSize(1409) [4]: c:\mike\frotz\winfrotz_vs10\winfrotz\c\win_init.c =====>
+         {
+         }
+      }
+   }
+}
+CWinFrotzView::OnKillFocus(395) [1] \winfrotzview.cpp
+{
+}
+CWinFrotzView::OnEraseBkgnd(866) [1] \winfrotzview.cpp
+{
+}
+CWinFrotzView::OnDraw(188) [1] \winfrotzview.cpp
+{
+}
+CWinFrotzView::OnSetFocus(407) [2] \winfrotzview.cpp
+{
+}
+CMainFrame::OnUpdateFileSave(1156) [1] \mainfrm.cpp
+{
+}
+CWinFrotzApp::OnFileOpen(326) [1] \winfrotz.cpp
+{
+   CWinFrotzView::OnKillFocus(395) [2] \winfrotzview.cpp
+   {
+   }
+   CWinFrotzView::OnSetFocus(407) [3] \winfrotzview.cpp
+   {
+   }
+   CWinFrotzDoc::OnOpenDocument(114) [1] \winfrotzdoc.cpp
+   {
+      CWinFrotzDoc::Serialize(80) [1] \winfrotzdoc.cpp
+      {
+      }

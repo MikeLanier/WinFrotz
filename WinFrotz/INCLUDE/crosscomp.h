@@ -1,0 +1,33 @@
+#include "states.h"
+
+#define MAX_LINE_MEM	255
+#define	MAX_LINE_SIZE	1024
+
+#define KEYBOARD_BUFFER_SIZE 64
+
+#ifndef _CONSOLE
+
+#define LINE_SIG_STYLE	255
+#define LINE_SIG_FG		254
+#define LINE_SIG_BG		253
+#define LINE_SIG_NEWLINE 252
+
+#define	VALID_KEY			0x01
+#define ALT_KEY_PRESSED		0x02
+#define CTRL_KEY_PRESSED	0x04
+#define SHIFT_KEY_PRESSED	0x08
+#define MOUSE_CLICK			0x10
+
+#define WM_CURSOR_POS	(WM_USER+1)
+#define WM_THREAD_DONE	(WM_USER+2)
+#define	WM_CURSOR_HIDE  (WM_USER+3)
+#define WM_CURSOR_SHOW  (WM_USER+4)
+#define WM_REFRESH		(WM_USER+5)
+#define WM_CHANGE_STATUS	(WM_USER+6)
+#define WM_BUFFER_READY	(WM_USER+7)
+#define	WM_VERSION_6	(WM_USER+8)
+#define WM_SET_ICON_TYPE		(WM_USER+9)
+
+#endif
+
+#define SINGLE_DC
